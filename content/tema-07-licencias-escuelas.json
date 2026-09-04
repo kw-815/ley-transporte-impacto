@@ -36,7 +36,7 @@
     },
     {
       "titulo": "Recuperación de puntos: tope de recuperaciones y de puntos totales",
-      "impacto": "La recuperación de puntos de la licencia pasa a tener un tope de **tres recuperaciones y 30 puntos** por vigencia del título — hoy no hay límite —, y perder de nuevo los puntos recuperados implica suspensión de la licencia por **cinco años**.",
+      "impacto": "Se permiten hasta **tres recuperaciones** de puntos por licencia: 15, 10 y 5, respectivamente, con un máximo acumulado de **30 puntos**, sin superar en total los 30 recuperados. Si luego de completar las recuperaciones el conductor vuelve a perder los puntos recuperados, la licencia será suspendida por **cinco años**.",
       "tags": [
         { "text": "Art. 45 reforma → art. 98 LOTTTSV vigente", "type": "art" }
       ],
