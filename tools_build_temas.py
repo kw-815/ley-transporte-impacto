@@ -1,9 +1,17 @@
 #!/usr/bin/env python3
 """Genera pages/tema-NN-*.html a partir de content/tema-NN.json, con
-header/nav/footer idénticos en las 11 páginas. También imprime el bloque
-de 11 tarjetas para pegar en index.html.
+header/nav/footer idénticos en las 11 páginas.
+
+Cada tema se divide en dos bloques:
+  - Artículos: directrices de fondo, agrupadas por subtema, cada subtema
+    con una calificación de impacto (alto/medio/bajo) y ordenadas de
+    mayor a menor impacto.
+  - Disposiciones: como/cuando se implementa, mostradas como línea de
+    tiempo por plazo (las sin plazo explícito van en un bloque aparte,
+    "vigentes desde la publicación").
 """
-import json, os, sys
+import json, os, sys, re
+import html as _html
 
 SITE = os.path.dirname(os.path.abspath(__file__))
 CONTENT = os.path.join(SITE, "content")
@@ -23,8 +31,57 @@ THEMES = [
     (11, "tema-11-electromovilidad", "Electromovilidad y micromovilidad", "Electromovilidad", "tema-11-electromovilidad.jpg"),
 ]
 
-import re
-import html as _html
+# (slug, nombre_grupo) -> "alto" | "medio" | "bajo"
+# Calificación por SUBGRUPO de artículos (no por item individual), para
+# ordenar de mayor a menor impacto dentro del bloque "Artículos" de cada
+# tema. Ajustar aquí si el contenido cambia.
+GROUP_IMPACT = {
+    ("tema-01-gobernanza", "Directorio y órganos rectores"): "bajo",
+    ("tema-01-gobernanza", "Dirección Ejecutiva, CTE y Policía"): "bajo",
+    ("tema-01-gobernanza", "Implementación"): "bajo",
+
+    ("tema-02-competencias-gad", "Control operativo en la vía"): "alto",
+    ("tema-02-competencias-gad", "Placas, matriculación y CRTV"): "alto",
+    ("tema-02-competencias-gad", "Competencias de los GAD (COOTAD)"): "medio",
+    ("tema-02-competencias-gad", "Transición y disposiciones de cierre"): "bajo",
+
+    ("tema-03-titulos-habilitantes", "Modalidades de transporte"): "alto",
+    ("tema-03-titulos-habilitantes", "Títulos habilitantes"): "alto",
+    ("tema-03-titulos-habilitantes", "Estudios técnicos y rutas"): "alto",
+    ("tema-03-titulos-habilitantes", "Implementación"): "medio",
+
+    ("tema-04-tarifas-multas", "Tarifas"): "alto",
+    ("tema-04-tarifas-multas", "Sanciones y garantías procesales"): "medio",
+    ("tema-04-tarifas-multas", "Reglas de multas e implementación"): "medio",
+
+    ("tema-05-seguridad-vial", "Conducta y protección vial"): "medio",
+    ("tema-05-seguridad-vial", "Circulación en playas"): "medio",
+    ("tema-05-seguridad-vial", "Peatones y biciusuarios"): "bajo",
+    ("tema-05-seguridad-vial", "Plan Nacional y criterios"): "bajo",
+
+    ("tema-06-delivery", "El servicio y sus requisitos"): "alto",
+    ("tema-06-delivery", "Registro y sanciones"): "alto",
+    ("tema-06-delivery", "Implementación"): "medio",
+
+    ("tema-07-licencias-escuelas", "Escuelas de conducción y trámites"): "alto",
+    ("tema-07-licencias-escuelas", "Emisión y renovación de licencias"): "medio",
+    ("tema-07-licencias-escuelas", "Formación de conductores"): "medio",
+
+    ("tema-08-digitalizacion", "Peajes"): "alto",
+    ("tema-08-digitalizacion", "Identificación y GPS vehicular"): "alto",
+    ("tema-08-digitalizacion", "Registro Nacional Integral"): "medio",
+    ("tema-08-digitalizacion", "Transporte por cuenta propia"): "bajo",
+
+    ("tema-09-homologacion-sppat", "Seguros y pólizas"): "alto",
+    ("tema-09-homologacion-sppat", "Homologación y seguridad técnica"): "medio",
+    ("tema-09-homologacion-sppat", "SPPAT"): "medio",
+    ("tema-09-homologacion-sppat", "Matrícula y trámites"): "bajo",
+
+    ("tema-11-electromovilidad", "Vehículos eléctricos livianos"): "alto",
+    ("tema-11-electromovilidad", "Micromovilidad"): "medio",
+    ("tema-11-electromovilidad", "Otros usos de vehículos eléctricos"): "medio",
+    ("tema-11-electromovilidad", "Implementación"): "bajo",
+}
 
 def esc(s):
     s = _html.escape(s, quote=True)
@@ -44,73 +101,142 @@ def nav_html(current_num):
 
 CHEVRON_SVG = '<svg class="cambio__chevron" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 7.5 10 12.5 15 7.5"/></svg>'
 
-def cambio_html(idx, num, item):
-    tags = item.get("tags", [])
-    art_tag = next((t["text"] for t in tags if t.get("type") == "art"), None)
-    other_tags = [t for t in tags if t.get("type") != "art"]
+def art_tag_of(item):
+    return next((t["text"] for t in item.get("tags", []) if t.get("type") == "art"), "")
+
+def plazo_tag_of(item):
+    return next((t["text"] for t in item.get("tags", []) if t.get("type") == "plazo"), "")
+
+def is_disposicion(item):
+    a = art_tag_of(item).strip().lower()
+    return a.startswith("disposición") or a.startswith("disposicion")
+
+def cambio_html(item):
+    art_tag = art_tag_of(item)
+    plazo_tag = plazo_tag_of(item)
     tag_html = []
-    for t in other_tags:
-        cls = "tag"
-        if t.get("type") == "plazo":
-            cls += " tag--plazo"
-        tag_html.append(f'<span class="{cls}">{esc(t["text"])}</span>')
-    impacto = ""
-    if item.get("impacto"):
-        impacto = f'\n            <p class="cambio__impacto">{esc(item["impacto"])}</p>'
+    if plazo_tag:
+        tag_html.append(f'<span class="tag tag--plazo">{esc(plazo_tag)}</span>')
+    if art_tag:
+        tag_html.append(f'<span class="tag tag--art">{esc(art_tag)}</span>')
     meta = ""
     if tag_html:
         meta = f'\n            <div class="cambio__meta">\n              {" ".join(tag_html)}\n            </div>'
-    art_html = f'<span class="cambio__summary-art">{esc(art_tag)}</span>' if art_tag else ""
     return f'''        <details class="cambio">
           <summary class="cambio__summary">
-            <span class="cambio__index" aria-hidden="true">T{num} · {idx:02d}</span>
             <span class="cambio__title">{esc(item["titulo"])}</span>
-            {art_html}
             {CHEVRON_SVG}
           </summary>
           <div class="cambio__body">
-            <div class="cambio__grid">
-              <div class="cambio__col cambio__col--antes">
-                <span class="cambio__label">Hoy</span>
-                <p>{esc(item["antes"])}</p>
-              </div>
-              <div class="cambio__col cambio__col--ahora">
-                <span class="cambio__label">Con la reforma</span>
-                <p>{esc(item["ahora"])}</p>
-              </div>
-            </div>{impacto}{meta}
+            <p class="cambio__text">{esc(item["impacto"])}</p>{meta}
           </div>
         </details>'''
 
-def grouped_items_html(num, items):
-    """Agrupa items consecutivos por su campo opcional 'grupo', preservando
-    el orden de primera aparición. Si ningún item trae 'grupo', devuelve la
-    lista plana de siempre (sin encabezados)."""
+def impact_badge(level):
+    if not level:
+        return ""
+    label = {"alto": "Alto", "medio": "Medio", "bajo": "Bajo"}.get(level, level.title())
+    return f'<span class="cambios-grupo__impact cambios-grupo__impact--{level}">{label}</span>'
+
+def articulos_html(slug, items):
+    """Agrupa los items tipo 'artículo' por su campo 'grupo', ordena los
+    subgrupos de mayor a menor impacto (según GROUP_IMPACT) y renderiza
+    cada uno con su encabezado + badge de impacto."""
+    if not items:
+        return ""
     if not any(it.get("grupo") for it in items):
-        return "\n\n".join(cambio_html(i + 1, num, it) for i, it in enumerate(items))
+        body = "\n\n".join(cambio_html(it) for it in items)
+        return f'<div class="cambios">\n{body}\n      </div>'
 
     order = []
     buckets = {}
-    for i, it in enumerate(items, 1):
+    for it in items:
         g = it.get("grupo") or "Otros"
         if g not in buckets:
             buckets[g] = []
             order.append(g)
-        buckets[g].append((i, it))
+        buckets[g].append(it)
+
+    rank = {"alto": 0, "medio": 1, "bajo": 2}
+    order.sort(key=lambda g: rank.get(GROUP_IMPACT.get((slug, g)), 1))
 
     blocks = []
     for g in order:
         entries = buckets[g]
+        level = GROUP_IMPACT.get((slug, g))
         head = (
             f'        <p class="cambios-grupo__label">'
             f'<span class="cambios-grupo__dot" aria-hidden="true"></span>'
             f'{esc(g)}'
+            f'{impact_badge(level)}'
             f'<span class="cambios-grupo__count">{len(entries)}</span>'
             f'</p>'
         )
-        body = "\n\n".join(cambio_html(i, num, it) for i, it in entries)
+        body = "\n\n".join(cambio_html(it) for it in entries)
         blocks.append(head + "\n\n" + body)
-    return "\n\n".join(blocks)
+    return '<div class="cambios">\n' + "\n\n".join(blocks) + "\n      </div>"
+
+PLAZO_DAYS_RE = [
+    (re.compile(r"(\d+)\s*años?"), lambda n: n * 365),
+    (re.compile(r"(\d+)\s*días?"), lambda n: n),
+]
+
+def plazo_sort_key(item):
+    p = plazo_tag_of(item)
+    if not p:
+        return 0
+    low = p.lower()
+    for rx, conv in PLAZO_DAYS_RE:
+        m = rx.search(low)
+        if m:
+            return conv(int(m.group(1)))
+    return 9999
+
+def disposiciones_html(items):
+    """Linea de tiempo por plazo. Las que no traen plazo explicito van en
+    un bloque aparte, 'vigentes desde la publicacion'."""
+    if not items:
+        return ""
+    con_plazo = [it for it in items if plazo_tag_of(it)]
+    sin_plazo = [it for it in items if not plazo_tag_of(it)]
+    con_plazo.sort(key=plazo_sort_key)
+
+    parts = []
+    if con_plazo:
+        rows = []
+        for it in con_plazo:
+            plazo = plazo_tag_of(it)
+            rows.append(f'''      <article class="timeline__item">
+        <span class="timeline__plazo">{esc(plazo)}</span>
+        <span class="timeline__dot" aria-hidden="true"></span>
+        <div class="timeline__body">
+          <p class="timeline__plazo-mobile">{esc(plazo)}</p>
+          <p class="timeline__title">{esc(it["titulo"])}</p>
+          <p class="timeline__text">{esc(it["impacto"])}</p>
+        </div>
+      </article>''')
+        parts.append('<div class="timeline">\n' + "\n".join(rows) + "\n    </div>")
+    if sin_plazo:
+        rows = []
+        for it in sin_plazo:
+            art_tag = art_tag_of(it)
+            art_html = f'<span class="tag tag--art">{esc(art_tag)}</span>' if art_tag else ""
+            rows.append(f'''        <details class="cambio">
+          <summary class="cambio__summary">
+            <span class="cambio__title">{esc(it["titulo"])}</span>
+            {CHEVRON_SVG}
+          </summary>
+          <div class="cambio__body">
+            <p class="cambio__text">{esc(it["impacto"])}</p>
+            <div class="cambio__meta">{art_html}</div>
+          </div>
+        </details>''')
+        parts.append(
+            '<div class="cambios-sin-plazo">\n'
+            '        <p class="cambios-sin-plazo__label">Vigentes desde la publicación, sin plazo transitorio</p>\n'
+            '        <div class="cambios">\n' + "\n\n".join(rows) + "\n        </div>\n      </div>"
+        )
+    return "\n\n".join(parts)
 
 def build_page(theme, data):
     num, slug, nombre, corto, img = theme
@@ -138,12 +264,35 @@ def build_page(theme, data):
         <strong>{esc(nnombre)}</strong>
       </a>'''
     else:
-        pager_next = '''      <a class="obj-pager__link obj-pager__link--next" href="../index.html#actores">
+        pager_next = '''      <a class="obj-pager__link obj-pager__link--next" href="../index.html#calendario">
         <small>Volver al inicio →</small>
-        <strong>A quién afecta</strong>
+        <strong>Calendario de cumplimiento</strong>
       </a>'''
 
-    items_html = grouped_items_html(num, data["items"])
+    articulos = [it for it in data["items"] if not is_disposicion(it)]
+    disposiciones = [it for it in data["items"] if is_disposicion(it)]
+
+    bloque_articulos = ""
+    if articulos:
+        bloque_articulos = f'''    <div class="roadmap-sub">
+      <header class="roadmap-sub__head">
+        <p class="roadmap-sub__eyebrow">Directrices</p>
+        <h2 class="roadmap-sub__title">Artículos</h2>
+        <p class="roadmap-sub__lead">Los cambios de fondo: qué exige, prohíbe o autoriza la reforma.</p>
+      </header>
+      {articulos_html(slug, articulos)}
+    </div>'''
+
+    bloque_disposiciones = ""
+    if disposiciones:
+        bloque_disposiciones = f'''    <div class="roadmap-sub">
+      <header class="roadmap-sub__head">
+        <p class="roadmap-sub__eyebrow">Implementación</p>
+        <h2 class="roadmap-sub__title">Disposiciones</h2>
+        <p class="roadmap-sub__lead">Cómo y cuándo se pone en marcha lo anterior — plazos y responsables de cada paso.</p>
+      </header>
+      {disposiciones_html(disposiciones)}
+    </div>'''
 
     return f'''<!doctype html>
 <html lang="es">
@@ -188,17 +337,9 @@ def build_page(theme, data):
     </div>
 
     <div class="roadmap">
-      <header class="roadmap__head">
-        <div>
-          <p class="roadmap__eyebrow">Comparativa</p>
-          <h2 class="roadmap__title">Antes y ahora</h2>
-        </div>
-        <p class="roadmap__count">{len(data["items"])} {"artículo" if len(data["items"]) == 1 else "artículos y disposiciones"}</p>
-      </header>
+{bloque_articulos}
 
-      <div class="cambios">
-{items_html}
-      </div>
+{bloque_disposiciones}
     </div>
 
     <nav class="obj-pager" aria-label="Navegación entre temas">
@@ -236,7 +377,9 @@ def main():
         out_path = os.path.join(PAGES, f"{slug}.html")
         with open(out_path, "w", encoding="utf-8") as f:
             f.write(html)
-        print(f"wrote {out_path} ({len(data['items'])} items)")
+        n_art = sum(1 for it in data["items"] if not is_disposicion(it))
+        n_disp = len(data["items"]) - n_art
+        print(f"wrote {out_path} ({n_art} articulos, {n_disp} disposiciones)")
     if missing:
         print("MISSING content files:", missing)
         sys.exit(1)

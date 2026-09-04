@@ -4,33 +4,28 @@
   "items": [
     {
       "titulo": "Controles obligatorios en terminales y paradas autorizadas",
-      "antes": "El artículo 4.a vigente exige promover contenidos audiovisuales de seguridad vial en el transporte público, sin un mecanismo específico de control en terminales.",
-      "ahora": "Se agrega la obligación de realizar controles en las distintas terminales terrestres y paradas autorizadas de transporte público a nivel nacional, con **sanciones administrativas** a las operadoras que incumplan.",
+      "impacto": "Se agrega la obligación de realizar controles en las terminales terrestres y paradas autorizadas de transporte público a nivel nacional, con **sanciones administrativas** a las operadoras que incumplan.",
       "tags": [
         {"text": "Art. 1 reforma → art. 4.a LOTTTSV vigente", "type": "art"}
       ]
     },
     {
       "titulo": "Servicios conexos, elevados a infraestructura estratégica del Estado",
-      "antes": "Los terminales terrestres, puertos secos y estaciones de transferencia son servicios conexos de propiedad del Estado, orientados a centralizar el control, embarque y desembarque de pasajeros y carga.",
-      "ahora": "Se elevan a **infraestructuras estratégicas de propiedad del Estado**, con la finalidad de garantizar seguridad, accesibilidad, eficiencia e integración con los sistemas intermodales de transporte.",
-      "impacto": "La titularidad estatal no cambia — ya lo era; lo nuevo es la categoría de infraestructura estratégica.",
+      "impacto": "Los terminales, puertos secos y estaciones de transferencia se elevan a la categoría de **infraestructura estratégica** del Estado —ya eran de propiedad estatal—, con el fin de garantizar seguridad, accesibilidad, eficiencia e integración con los sistemas intermodales de transporte.",
       "tags": [
         {"text": "Art. 23 reforma → art. 61 LOTTTSV vigente", "type": "art"}
       ]
     },
     {
       "titulo": "Gestión y construcción de terminales, a cargo de los GAD",
-      "antes": "La ANT establece las normas de funcionamiento de uso obligatorio para las operadoras; en ciudades sin terminal, los GAD determinan un lugar adecuado para subir o bajar pasajeros.",
-      "ahora": "Los GAD regionales, metropolitanos o municipales **construyen, administran y operan** los terminales de su jurisdicción, y pueden usar asociación público-privada o gestión delegada siempre que la titularidad pública y el control permanezcan en el GAD. Se agrega el control operativo de generación y transmisión de datos de origen y destino.",
+      "impacto": "La construcción, administración y operación de los terminales pasa de la ANT a los **GAD** regionales, metropolitanos y municipales de su jurisdicción, que pueden usar asociación público-privada o gestión delegada siempre que la titularidad pública y el control permanezcan en el GAD; se suma la obligación de generar y transmitir datos de origen y destino.",
       "tags": [
         {"text": "Art. 24 reforma → art. 62 LOTTTSV vigente", "type": "art"}
       ]
     },
     {
       "titulo": "Régimen de transición para contratos de administración vigentes",
-      "antes": "No existía un régimen de transición para los contratos de administración de terminales celebrados antes de la reforma.",
-      "ahora": "Los contratos vigentes se mantienen hasta la conclusión de su plazo, si no están en incumplimiento. Una vez finalizados, los GAD tienen **360 días** para adecuar su régimen de administración a la nueva Ley.",
+      "impacto": "Los contratos de administración de terminales vigentes se mantienen hasta su plazo si no están en incumplimiento; al finalizar, los GAD tienen **360 días** para adecuar su régimen de administración a la nueva Ley.",
       "tags": [
         {"text": "Disposición Transitoria Primera (bloque final)", "type": "art"},
         {"text": "360 días", "type": "plazo"}

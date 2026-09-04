@@ -4,183 +4,116 @@
   "items": [
     {
       "titulo": "Servicio de transporte comercial y carga pesada",
-      "antes": "El Art. 57 vigente regula el servicio de transporte comercial (escolar, taxis, alternativo comunitario, tricimotos, carga, mixto, turístico) sin una regla diferenciada para carga pesada respecto a rutas y frecuencias.",
-      "ahora": "El transporte comercial de carga pesada **no está sujeto al establecimiento, autorización ni asignación de rutas ni frecuencias**; se rige por permiso de operación y las condiciones técnicas, operativas y de seguridad que fije la ANT.",
-      "impacto": "Este mismo artículo incorpora también la cláusula ambiental para Galápagos, desarrollada en el Tema 11.",
+      "impacto": "El transporte comercial de carga pesada deja de estar sujeto al establecimiento, autorización o asignación de rutas y frecuencias: se rige solo por permiso de operación y las condiciones técnicas que fije la ANT (este mismo artículo agrega también un criterio ambiental para Galápagos, ver Tema 11).",
       "tags": [
-        {
-          "text": "Art. 20 reforma → art. 57 LOTTTSV vigente",
-          "type": "art"
-        }
+        { "text": "Art. 20 reforma → art. 57 LOTTTSV vigente", "type": "art" }
       ],
       "grupo": "Modalidades de transporte"
     },
     {
       "titulo": "Transporte por cuenta propia",
-      "antes": "El Art. 58 vigente regula el transporte por cuenta propia de bienes y personas, sin un estándar único de rotulado ni un registro en línea centralizado.",
-      "ahora": "Para bienes, exige rotulado visible y permanente con datos institucionales mínimos (razón social o RUC), con **anonimización de la información expuesta al público**, y registro en línea gratuito en la plataforma de la ANT, sin costo ni trámite adicional para el usuario. La vinculación con la actividad económica se acredita con comprobantes de venta, guías de remisión u otros documentos del SRI.",
+      "impacto": "El transporte de bienes por cuenta propia exige rotulado visible y permanente con datos institucionales mínimos — con anonimización de la información expuesta al público — y registro en línea gratuito en la plataforma de la ANT, acreditando la actividad económica con comprobantes de venta o guías de remisión del SRI.",
       "tags": [
-        {
-          "text": "Art. 22 reforma → art. 58 LOTTTSV vigente",
-          "type": "art"
-        }
+        { "text": "Art. 22 reforma → art. 58 LOTTTSV vigente", "type": "art" }
       ],
       "grupo": "Modalidades de transporte"
     },
     {
       "titulo": "Ámbitos de operación del transporte público",
-      "antes": "El Art. 65 vigente define cuatro ámbitos de operación (intracantonal, intraprovincial, interprovincial e internacional), sin excepciones generales.",
-      "ahora": "La ANT podrá autorizar excepcionalmente la operación fuera del ámbito habilitado por interés público, eventos, emergencias o contingencias. Se habilitan las encomiendas y el servicio puerta a puerta.",
-      "impacto": "El servicio puerta a puerta solo puede prestarse con vehículos eléctricos o híbridos — ver Tema 11.",
+      "impacto": "La ANT podrá autorizar excepcionalmente que el transporte público opere fuera de su ámbito habilitado por interés público, eventos o emergencias, y se habilitan las encomiendas y el servicio puerta a puerta — este último, solo con vehículos eléctricos o híbridos (ver Tema 11).",
       "tags": [
-        {
-          "text": "Art. 28 reforma → art. 65 LOTTTSV vigente",
-          "type": "art"
-        }
+        { "text": "Art. 28 reforma → art. 65 LOTTTSV vigente", "type": "art" }
       ],
       "grupo": "Modalidades de transporte"
     },
     {
       "titulo": "Títulos habilitantes de transporte terrestre",
-      "antes": "El Art. 72 vigente reserva los títulos habilitantes a personas jurídicas domiciliadas en Ecuador, con personas naturales solo para cuenta propia y el comunitario rural excepcional.",
-      "ahora": "Los títulos habilitantes se otorgan a **personas naturales o jurídicas** domiciliadas en Ecuador que acrediten capacidad técnica y financiera. Cuando la ruta cruza dos o más cantones, los títulos de la ANT prevalecen sobre cualquier normativa o acto administrativo local. La prestación directa del servicio por el Estado o los GAD no requiere contrato de operación, pero debe seguir las políticas de la ANT.",
+      "impacto": "Los títulos habilitantes dejan de reservarse a personas jurídicas: se abren también a personas naturales que acrediten capacidad técnica y financiera, y cuando una ruta cruza dos o más cantones, los títulos de la ANT prevalecen sobre cualquier normativa local.",
       "tags": [
-        {
-          "text": "Art. 29 reforma → art. 72 LOTTTSV vigente",
-          "type": "art"
-        }
+        { "text": "Art. 29 reforma → art. 72 LOTTTSV vigente", "type": "art" }
       ],
       "grupo": "Títulos habilitantes"
     },
     {
       "titulo": "Estudio técnico no condiciona el título en carga pesada",
-      "antes": "El Art. 73 vigente no distingue a la carga pesada del régimen general de estudios técnicos previos al título habilitante.",
-      "ahora": "Se agrega un inciso final: en la modalidad de carga pesada, los estudios técnicos **no condicionarán el otorgamiento del título habilitante**; basta cumplir los requisitos generales de la Ley, su reglamento y la normativa de la ANT.",
+      "impacto": "En transporte de carga pesada, el estudio técnico de necesidad deja de condicionar el otorgamiento del título habilitante: basta con cumplir los requisitos generales de la Ley y la normativa de la ANT.",
       "tags": [
-        {
-          "text": "Art. 31 reforma → art. 73 LOTTTSV vigente (inciso final)",
-          "type": "art"
-        }
+        { "text": "Art. 31 reforma → art. 73 LOTTTSV vigente (inciso final)", "type": "art" }
       ],
       "grupo": "Títulos habilitantes"
     },
     {
       "titulo": "Títulos habilitantes otorgados por la ANT",
-      "antes": "El Art. 74 vigente atribuye a la ANT los títulos habilitantes en su ámbito de competencia.",
-      "ahora": "Se detallan tres tipos de título: contratos de operación (interprovincial, intraprovincial e internacional), permisos de operación de transporte comercial en todos los ámbitos salvo intracantonal, y autorizaciones de cuenta propia de personas. Todos son válidos y vinculantes en todo el territorio nacional, con reconocimiento obligatorio por los GAD.",
+      "impacto": "Los títulos habilitantes de la ANT — contratos de operación, permisos de transporte comercial fuera del ámbito intracantonal y autorizaciones de cuenta propia — pasan a ser válidos y vinculantes en todo el país, con reconocimiento obligatorio por parte de los GAD.",
       "tags": [
-        {
-          "text": "Art. 32 reforma → art. 74 LOTTTSV vigente",
-          "type": "art"
-        }
+        { "text": "Art. 32 reforma → art. 74 LOTTTSV vigente", "type": "art" }
       ],
       "grupo": "Títulos habilitantes"
     },
     {
       "titulo": "Títulos habilitantes en el ámbito intracantonal",
-      "antes": "El Art. 75 vigente atribuye íntegramente los títulos del ámbito intracantonal a los GAD municipales y metropolitanos.",
-      "ahora": "Se exceptúa el **transporte escolar e institucional**, cuya emisión recae en la ANT, aunque el ámbito sea intracantonal.",
+      "impacto": "El transporte escolar e institucional deja de emitirse por los GAD municipales incluso en el ámbito intracantonal: su título habilitante pasa a emitirlo la ANT.",
       "tags": [
-        {
-          "text": "Art. 33 reforma → art. 75 LOTTTSV vigente",
-          "type": "art"
-        }
+        { "text": "Art. 33 reforma → art. 75 LOTTTSV vigente", "type": "art" }
       ],
       "grupo": "Títulos habilitantes"
     },
     {
       "titulo": "Tricimotos y mototaxis",
-      "antes": "La Disposición General Segunda vigente de la LOTTTSV permite a tricimotos y mototaxis homologadas prestar **solo servicio comercial**, en lugares donde sea segura su prestación, sujeto a restricciones de los GAD.",
-      "ahora": "Se admite además la prestación **por cuenta propia**, y se reconocen expresamente sus variantes de transporte de pasajeros y de carga.",
+      "impacto": "Las tricimotos y mototaxis homologadas, que hoy solo pueden prestar servicio comercial, podrán además operar por cuenta propia, con sus variantes de pasajeros y de carga reconocidas expresamente.",
       "tags": [
-        {
-          "text": "Art. 70 reforma → Disposición General Segunda LOTTTSV vigente",
-          "type": "art"
-        }
+        { "text": "Art. 70 reforma → Disposición General Segunda LOTTTSV vigente", "type": "art" }
       ],
       "grupo": "Modalidades de transporte"
     },
     {
       "titulo": "Estudio técnico de necesidad del servicio",
-      "antes": "La Disposición General Cuadragésima Octava vigente condiciona la solicitud de título habilitante al estudio técnico de necesidad realizado por la ANT, con criterios de oferta y demanda, costo-beneficio y priorización del transporte público.",
-      "ahora": "Se añade el cumplimiento previo de requisitos jurídicos, técnicos, vehiculares, de seguridad, ambientales y de aseguramiento. La **carga pesada queda exceptuada** del estudio de necesidad, sujeta solo al cumplimiento de esos requisitos.",
+      "impacto": "El estudio técnico de necesidad para un título habilitante suma el cumplimiento previo de requisitos jurídicos, técnicos, vehiculares, de seguridad, ambientales y de aseguramiento, aunque la carga pesada queda exceptuada de este estudio.",
       "tags": [
-        {
-          "text": "Art. 73 reforma → Disposición General Cuadragésima Octava LOTTTSV vigente",
-          "type": "art"
-        }
+        { "text": "Art. 73 reforma → Disposición General Cuadragésima Octava LOTTTSV vigente", "type": "art" }
       ],
       "grupo": "Estudios técnicos y rutas"
     },
     {
       "titulo": "Estudios técnicos y de necesidad en Galápagos",
-      "antes": "La Disposición General Sexagésima Tercera vigente exige informe previo favorable del Consejo de Gobierno de Galápagos y del GAD municipal para los estudios técnicos, ambientales y de necesidad, con asignación de cupos por tipo de vehículo.",
-      "ahora": "Se agrega una excepción: si los GAD no emiten esos informes a tiempo, cada administración cantonal puede trabajar de manera individual e independiente para regularizar las modalidades de transporte existentes en Galápagos.",
+      "impacto": "En Galápagos, si el Consejo de Gobierno o el GAD municipal no emiten a tiempo su informe previo para un estudio técnico, cada cantón podrá regularizar de forma individual las modalidades de transporte existentes.",
       "tags": [
-        {
-          "text": "Art. 75 reforma → Disposición General Sexagésima Tercera LOTTTSV vigente",
-          "type": "art"
-        }
+        { "text": "Art. 75 reforma → Disposición General Sexagésima Tercera LOTTTSV vigente", "type": "art" }
       ],
       "grupo": "Estudios técnicos y rutas"
     },
     {
       "titulo": "Congelamiento de nuevas rutas y frecuencias",
-      "antes": "La Disposición Transitoria Octogésima vigente prohíbe otorgar nuevas rutas y frecuencias hasta contar con el Plan de Rutas y Frecuencias, que la ANT debía elaborar en el plazo de un año, con excepción para cantones con nuevas vías de primer orden.",
-      "ahora": "La prohibición se extiende hasta el **Plan Nacional de Rutas y Frecuencias**, con plazo máximo de **dos años**. Los contratos de operación que caduquen en ese período podrán prorrogarse si cumplen el cuadro de vida útil y la revisión técnica vehicular. Se agrega una excepción para GAD municipales que históricamente hayan regulado rutas y frecuencias de forma tradicional.",
+      "impacto": "El congelamiento de nuevas rutas y frecuencias se extiende hasta el Plan Nacional de Rutas y Frecuencias, con un plazo máximo de dos años (antes, uno); los contratos que caduquen en ese período podrán prorrogarse si cumplen vida útil y revisión técnica, y se agrega una excepción para GAD municipales con regulación histórica de rutas.",
       "tags": [
-        {
-          "text": "Art. 78 reforma → Disposición Transitoria Octogésima LOTTTSV vigente",
-          "type": "art"
-        },
-        {
-          "text": "Hasta 2 años",
-          "type": "plazo"
-        }
+        { "text": "Art. 78 reforma → Disposición Transitoria Octogésima LOTTTSV vigente", "type": "art" },
+        { "text": "Hasta 2 años", "type": "plazo" }
       ],
       "grupo": "Estudios técnicos y rutas"
     },
     {
       "titulo": "Revisión integral de todos los títulos habilitantes",
-      "antes": "No existe una revisión nacional integral de este tipo en el texto vigente.",
-      "ahora": "La ANT, con apoyo de la Dirección Nacional de Tránsito de la Policía, revisará todos los títulos habilitantes otorgados a nivel nacional, incluidos los intracantonales, para detectar superposición o incompatibilidad de competencias; puede suspender, modificar o revocar los que contravengan la Ley.",
+      "impacto": "En 360 días, la ANT — con apoyo de la Policía — revisará todos los títulos habilitantes otorgados en el país, incluidos los intracantonales, y podrá suspender, modificar o revocar los que contravengan la Ley.",
       "tags": [
-        {
-          "text": "Disposición General Cuarta (bloque final)",
-          "type": "art"
-        },
-        {
-          "text": "360 días",
-          "type": "plazo"
-        }
+        { "text": "Disposición General Cuarta (bloque final)", "type": "art" },
+        { "text": "360 días", "type": "plazo" }
       ],
       "grupo": "Implementación"
     },
     {
       "titulo": "Transición para vehículos de matrícula extranjera",
-      "antes": "No aplica — es una disposición de transición para la propia reforma.",
-      "ahora": "Hasta que se implementen en su totalidad los mecanismos del nuevo Art. 65, se mantienen vigentes los requisitos y procedimientos actualmente aplicables al ingreso y circulación de vehículos de matrícula extranjera.",
+      "impacto": "Mientras se implementan en su totalidad los nuevos mecanismos del Art. 65, se mantienen vigentes los requisitos actuales para el ingreso y circulación de vehículos de matrícula extranjera.",
       "tags": [
-        {
-          "text": "Disposición Transitoria Cuarta (bloque final)",
-          "type": "art"
-        }
+        { "text": "Disposición Transitoria Cuarta (bloque final)", "type": "art" }
       ],
       "grupo": "Implementación"
     },
     {
       "titulo": "Catastro de vehículos sin título habilitante en Galápagos",
-      "antes": "No existe un proceso de regularización de este tipo en el texto vigente.",
-      "ahora": "La ANT, junto con el Consejo de Gobierno de Galápagos, levanta el catastro de vehículos de transporte público y comercial en circulación sin título habilitante en la provincia, y habilita por única vez su regularización, exceptuándolos del estudio técnico de necesidad.",
+      "impacto": "En 90 días, la ANT y el Consejo de Gobierno de Galápagos levantarán un catastro de vehículos de transporte público y comercial sin título habilitante en la provincia, y habilitarán por única vez su regularización sin exigir el estudio técnico de necesidad.",
       "tags": [
-        {
-          "text": "Disposición Transitoria Octava (bloque final)",
-          "type": "art"
-        },
-        {
-          "text": "90 días",
-          "type": "plazo"
-        }
+        { "text": "Disposición Transitoria Octava (bloque final)", "type": "art" },
+        { "text": "90 días", "type": "plazo" }
       ],
       "grupo": "Implementación"
     }
