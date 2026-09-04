@@ -99,21 +99,6 @@
       "grupo": "Peajes"
     },
     {
-      "titulo": "Herramienta de registro para transporte de bienes por cuenta propia",
-      "impacto": "La ANT deberá crear una herramienta tecnológica para que quienes transportan bienes por cuenta propia registren sus vehículos, algo que hoy no existe.",
-      "tags": [
-        {
-          "text": "Disposición General Décima Primera (bloque final)",
-          "type": "art"
-        },
-        {
-          "text": "180 días",
-          "type": "plazo"
-        }
-      ],
-      "grupo": "Transporte por cuenta propia"
-    },
-    {
       "titulo": "Interoperabilidad obligatoria de administradores de peajes",
       "impacto": "Todos los administradores de peajes — públicos, concesionados o delegados — deberán interoperar e integrarse al sistema nacional único dentro de los dos años siguientes a que esté implementada la plataforma, obligación que hoy no existe.",
       "tags": [
@@ -228,21 +213,6 @@
         }
       ],
       "grupo": "Peajes"
-    },
-    {
-      "titulo": "Reglas de acceso y uso de los datos del GPS",
-      "impacto": "En 180 días deberán fijarse las reglas de acceso, uso y tratamiento de la información que generan los GPS de transporte, con garantías de confidencialidad y protección de datos personales — hoy no existen reglas específicas.",
-      "tags": [
-        {
-          "text": "Disposición Final Décima Primera (bloque final)",
-          "type": "art"
-        },
-        {
-          "text": "180 días",
-          "type": "plazo"
-        }
-      ],
-      "grupo": "Identificación y GPS vehicular"
     },
     {
       "titulo": "Se deroga la interconexión y acceso público del registro anterior",
