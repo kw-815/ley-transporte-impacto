@@ -42,38 +42,45 @@ def nav_html(current_num):
         )
     return '<nav class="wrap obj-nav-top" aria-label="Temas de la reforma">\n  <div class="obj-nav-top__grid">\n' + "\n".join(items) + "\n  </div>\n</nav>"
 
+CHEVRON_SVG = '<svg class="cambio__chevron" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 7.5 10 12.5 15 7.5"/></svg>'
+
 def cambio_html(idx, num, item):
     tags = item.get("tags", [])
+    art_tag = next((t["text"] for t in tags if t.get("type") == "art"), None)
+    other_tags = [t for t in tags if t.get("type") != "art"]
     tag_html = []
-    for t in tags:
+    for t in other_tags:
         cls = "tag"
         if t.get("type") == "plazo":
             cls += " tag--plazo"
-        elif t.get("type") == "art":
-            cls += " tag--art"
         tag_html.append(f'<span class="{cls}">{esc(t["text"])}</span>')
     impacto = ""
     if item.get("impacto"):
-        impacto = f'\n          <p class="cambio__impacto">{esc(item["impacto"])}</p>'
-    return f'''        <article class="cambio">
-          <div class="cambio__head">
+        impacto = f'\n            <p class="cambio__impacto">{esc(item["impacto"])}</p>'
+    meta = ""
+    if tag_html:
+        meta = f'\n            <div class="cambio__meta">\n              {" ".join(tag_html)}\n            </div>'
+    art_html = f'<span class="cambio__summary-art">{esc(art_tag)}</span>' if art_tag else ""
+    return f'''        <details class="cambio">
+          <summary class="cambio__summary">
             <span class="cambio__index" aria-hidden="true">T{num} · {idx:02d}</span>
-            <h3 class="cambio__title">{esc(item["titulo"])}</h3>
+            <span class="cambio__title">{esc(item["titulo"])}</span>
+            {art_html}
+            {CHEVRON_SVG}
+          </summary>
+          <div class="cambio__body">
+            <div class="cambio__grid">
+              <div class="cambio__col cambio__col--antes">
+                <span class="cambio__label">Hoy</span>
+                <p>{esc(item["antes"])}</p>
+              </div>
+              <div class="cambio__col cambio__col--ahora">
+                <span class="cambio__label">Con la reforma</span>
+                <p>{esc(item["ahora"])}</p>
+              </div>
+            </div>{impacto}{meta}
           </div>
-          <div class="cambio__grid">
-            <div class="cambio__col cambio__col--antes">
-              <span class="cambio__label">Hoy</span>
-              <p>{esc(item["antes"])}</p>
-            </div>
-            <div class="cambio__col cambio__col--ahora">
-              <span class="cambio__label">Con la reforma</span>
-              <p>{esc(item["ahora"])}</p>
-            </div>
-          </div>{impacto}
-          <div class="cambio__meta">
-            {" ".join(tag_html)}
-          </div>
-        </article>'''
+        </details>'''
 
 def build_page(theme, data):
     num, slug, nombre, corto, img = theme

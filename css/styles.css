@@ -2166,50 +2166,38 @@ section[id] { scroll-margin-top: calc(var(--nav-h) + 1rem); }
 .sector--turismo      { --sc: #A2C56B; }
 
 
-/* ---- Badges de severidad ---- */
-.badge-sev {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  padding: 0.32rem 0.75rem;
-  border-radius: 999px;
-  font-size: 0.72rem;
-  font-weight: 700;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  white-space: nowrap;
-}
-.badge-sev::before {
-  content: "";
-  width: 7px;
-  height: 7px;
-  border-radius: 50%;
-  background: currentColor;
-}
-.badge-sev--alta      { background: rgba(242, 106, 90, 0.18); color: #FF9C8E; }
-.badge-sev--media      { background: rgba(245, 192, 66, 0.18); color: #FFD770; }
-.badge-sev--baja       { background: rgba(162, 197, 107, 0.18); color: #C3E29B; }
-.badge-sev--favorable  { background: rgba(1, 197, 180, 0.18); color: #5CE8D8; }
 
-/* ---- Tarjeta de cambio: comparativa antes/ahora ---- */
-.cambios { display: flex; flex-direction: column; gap: var(--s-4); margin-top: var(--s-5); }
+/* ---- Lista de cambios: acordeón nativo <details>/<summary> ----
+   Colapsado por defecto: la tarjeta muestra solo índice + título +
+   referencia de artículo, y se expande al hacer clic para ver el
+   antes/ahora. Reduce el scroll y deja escanear los subtemas como
+   lista antes de entrar al detalle de cada uno. */
+.cambios { display: flex; flex-direction: column; gap: var(--s-2); margin-top: var(--s-5); }
 
 .cambio {
   position: relative;
   border-radius: var(--r-lg);
   background: var(--t-08);
   border: 1px solid var(--t-10);
-  padding: clamp(1.35rem, 2.4vw, 1.9rem);
   overflow: hidden;
+  transition: background var(--t-fast) var(--ease);
 }
-.cambio__head {
+.cambio[open] { background: var(--t-10); }
+
+.cambio__summary {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   gap: 0.6rem 0.9rem;
-  margin-bottom: var(--s-3);
+  padding: 1.1rem clamp(1.35rem, 2.4vw, 1.9rem);
+  cursor: pointer;
+  list-style: none;
 }
+.cambio__summary::-webkit-details-marker { display: none; }
+.cambio__summary::marker { content: ""; }
+.cambio__summary:hover .cambio__title { color: var(--accent, var(--orange)); }
 .cambio__index {
+  flex-shrink: 0;
   font-size: 0.72rem;
   font-weight: 700;
   letter-spacing: 0.08em;
@@ -2221,6 +2209,25 @@ section[id] { scroll-margin-top: calc(var(--nav-h) + 1rem); }
   font-weight: 700;
   line-height: 1.3;
   color: var(--white);
+  transition: color var(--t-fast) var(--ease);
+}
+.cambio__summary-art {
+  flex-shrink: 0;
+  font-size: 0.72rem;
+  color: var(--t-60);
+  max-width: 32ch;
+}
+.cambio__chevron {
+  flex-shrink: 0;
+  width: 22px;
+  height: 22px;
+  color: var(--t-60);
+  transition: transform var(--t-fast) var(--ease);
+}
+.cambio[open] .cambio__chevron { transform: rotate(180deg); color: var(--accent, var(--orange)); }
+
+.cambio__body {
+  padding: 0 clamp(1.35rem, 2.4vw, 1.9rem) clamp(1.35rem, 2.4vw, 1.9rem);
 }
 .cambio__grid {
   display: grid;
@@ -2297,21 +2304,15 @@ section[id] { scroll-margin-top: calc(var(--nav-h) + 1rem); }
   transition: background var(--t-fast) var(--ease), transform var(--t-fast) var(--ease);
 }
 .hallazgo:hover { background: var(--t-10); transform: translateY(-2px); }
-.hallazgo__head {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 0.65rem;
-  margin-bottom: 0.6rem;
-}
 .hallazgo__num {
+  display: block;
   font-size: var(--fs-md);
   font-weight: 700;
   color: transparent;
   -webkit-text-stroke: 1.2px var(--t-40);
   line-height: 1;
+  margin-bottom: 0.5rem;
 }
-.hallazgo__sev { flex-shrink: 0; }
 .hallazgo__title { font-size: var(--fs-base); font-weight: 700; color: var(--white); line-height: 1.35; margin-bottom: 0.4rem; }
 .hallazgo__text { font-size: var(--fs-sm); line-height: 1.55; color: var(--t-75); }
 .hallazgo__text strong { color: var(--t-90); font-weight: 600; }
