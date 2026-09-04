@@ -1,149 +1,102 @@
 {
   "meta_desc": "Cómo se fijan las tarifas del transporte terrestre y qué garantías y beneficios aplican en el procedimiento sancionador de tránsito, según la reforma a la LOTTTSV.",
-  "en_sintesis": "La reforma reemplaza los análisis técnicos propios de cada GAD por una metodología tarifaria única emitida por el ente rector, duplica a cuatro años el ciclo de estudios de costos, y agrega una garantía de notificación previa a toda sanción pecuniaria, coactiva o medida cautelar.",
+  "en_sintesis": "La reforma establece una metodología nacional obligatoria para la fijación de tarifas, amplía a cuatro años los estudios de costos y fortalece las garantías de notificación antes del cobro de multas. También condiciona el descuento por pronto pago y fija nuevos criterios para el uso de los recursos recaudados.",
   "items": [
     {
-      "titulo": "Tarifas de competencia de los GAD",
+      "titulo": "Metodología nacional para las tarifas de los GAD",
+      "impacto": "Los GAD fijarán las tarifas de las modalidades bajo su competencia con base en estudios de costos y la metodología nacional emitida por el ente rector de transporte.",
       "tags": [
-        {
-          "text": "Art. 13 reforma → art. 30.5.h LOTTTSV vigente",
-          "type": "art"
-        }
+        { "text": "Art. 13 reforma → art. 30.5.h LOTTTSV vigente", "type": "art" }
       ],
-      "grupo": "Tarifas",
-      "impacto": "Las tarifas del transporte pasan de fijarse según los análisis propios de cada GAD a regirse por la metodología tarifaria nacional que emite el ente rector de transporte."
+      "grupo": "Tarifas"
     },
     {
-      "titulo": "Estudios de costos reales de mercado, cada cuatro años",
+      "titulo": "Estudios de costos cada cuatro años",
+      "impacto": "La ANT y los GAD realizarán cada cuatro años los estudios de costos reales de mercado que sustenten los ajustes tarifarios.",
       "tags": [
-        {
-          "text": "Art. 14 reforma → art. 47 LOTTTSV vigente",
-          "type": "art"
-        }
+        { "text": "Art. 14 reforma → art. 47 LOTTTSV vigente", "type": "art" }
       ],
-      "grupo": "Tarifas",
-      "impacto": "El estudio de costos reales de mercado que sustenta los ajustes tarifarios pasa de realizarse cada dos años a cada cuatro años."
+      "grupo": "Tarifas"
     },
     {
-      "titulo": "Metodología tarifaria nacional obligatoria",
+      "titulo": "Metodología tarifaria obligatoria",
+      "impacto": "Las tarifas del transporte público y comercial de pasajeros y carga deberán sustentarse en estudios técnicos y aplicar una metodología nacional de cumplimiento obligatorio.\n\nLa ANT verificará su aplicación y podrá exigir correcciones.",
       "tags": [
-        {
-          "text": "Art. 15 reforma → nuevo art. 47.a LOTTTSV",
-          "type": "art"
-        }
+        { "text": "Art. 15 reforma → nuevo art. 47.a LOTTTSV", "type": "art" }
       ],
-      "grupo": "Tarifas",
-      "impacto": "Se crea una metodología tarifaria nacional única y de cumplimiento obligatorio para los GAD, que reemplaza los estudios propios de costos operativos; la ANT verifica su cumplimiento y puede exigir correcciones."
+      "grupo": "Tarifas"
     },
     {
-      "titulo": "Tarifas diferenciadas para grupos de atención prioritaria",
+      "titulo": "Tarifas diferenciadas definidas por la ANT",
+      "impacto": "El Directorio de la ANT determinará los parámetros, forma y procedimiento para aplicar tarifas diferenciadas a niñas, niños y adolescentes, personas con discapacidad y adultos mayores.",
       "tags": [
-        {
-          "text": "Art. 16 reforma → art. 48 LOTTTSV vigente",
-          "type": "art"
-        }
+        { "text": "Art. 16 reforma → art. 48 LOTTTSV vigente", "type": "art" }
       ],
-      "grupo": "Tarifas",
-      "impacto": "Las tarifas diferenciadas para niñas, niños, adolescentes, personas con discapacidad y adultos mayores eliminan el umbral de 65 años del texto legal, y sus parámetros y procedimiento pasan a determinarlos el Directorio de la ANT en lugar del reglamento."
+      "grupo": "Tarifas"
     },
     {
-      "titulo": "Se elimina la facultad de los GAD de reducir multas por ordenanza",
-      "impacto": "Se elimina la facultad de cada GAD de fijar por ordenanza propia su propio porcentaje de reducción de multas locales.",
+      "titulo": "Regulación tarifaria para transporte comercial",
+      "impacto": "Las tarifas técnicas, justas y equitativas se aplicarán al transporte público y a las modalidades de transporte comercial que requieran regulación tarifaria, conforme al Reglamento.",
       "tags": [
-        {
-          "text": "Disposición Derogatoria Tercera (deroga D. General Trigésima Quinta LOTTTSV vigente)",
-          "type": "art"
-        }
+        { "text": "Art. 19 reforma → art. 54.e LOTTTSV vigente", "type": "art" }
       ],
-      "grupo": "Reglas de multas e implementación"
+      "grupo": "Tarifas"
     },
     {
-      "titulo": "Tarifas técnicas, justas y equitativas",
+      "titulo": "Infracción por falta de mantenimiento",
+      "impacto": "Se incorpora como infracción muy grave operar vehículos con fallas derivadas de la falta de mantenimiento preventivo o correctivo conforme a las especificaciones del fabricante.\n\nCuando no exista soporte técnico de fábrica, deberá mantenerse una bitácora firmada por un profesional acreditado.",
       "tags": [
-        {
-          "text": "Art. 19 reforma → art. 54 letra e) LOTTTSV vigente",
-          "type": "art"
-        }
-      ],
-      "grupo": "Tarifas",
-      "impacto": "Para los tipos de transporte comercial que requieran regulación tarifaria especial, el criterio de tarifas técnicas, justas y equitativas pasa a aplicarse conforme a lo que disponga el reglamento."
-    },
-    {
-      "titulo": "Nueva infracción muy grave por falta de mantenimiento",
-      "tags": [
-        {
-          "text": "Art. 35 reforma → art. 82 LOTTTSV vigente (nuevo núm. 16)",
-          "type": "art"
-        }
-      ],
-      "grupo": "Sanciones y garantías procesales",
-      "impacto": "Se tipifica como infracción muy grave la falla mecánica por falta de mantenimiento preventivo o correctivo según especificaciones del fabricante, y se exige llevar una bitácora firmada por un profesional acreditado cuando el vehículo no tiene soporte técnico de fábrica."
-    },
-    {
-      "titulo": "Garantía de notificación previa al propietario",
-      "tags": [
-        {
-          "text": "Art. 50 reforma → art. 179 LOTTTSV vigente",
-          "type": "art"
-        }
-      ],
-      "grupo": "Sanciones y garantías procesales",
-      "impacto": "Ninguna sanción pecuniaria, coactiva o medida cautelar podrá imponerse al propietario del vehículo sin verificar antes que hubo notificación legal y posibilidad de impugnar."
-    },
-    {
-      "titulo": "Misma garantía extendida al presunto infractor",
-      "tags": [
-        {
-          "text": "Art. 51 reforma → art. 179.b LOTTTSV vigente (cuarto inciso)",
-          "type": "art"
-        }
-      ],
-      "grupo": "Sanciones y garantías procesales",
-      "impacto": "La garantía de notificación previa antes de sancionar se extiende también al presunto infractor, y cubre expresamente los procedimientos coactivos y las medidas cautelares."
-    },
-    {
-      "titulo": "Exoneración de infracciones para vehículos de emergencia",
-      "tags": [
-        {
-          "text": "Art. 76 reforma → Disposición General Sexagésima Séptima LOTTTSV vigente",
-          "type": "art"
-        }
-      ],
-      "grupo": "Sanciones y garantías procesales",
-      "impacto": "La exoneración de infracciones para vehículos de emergencia se extiende a otras autoridades con perfil de riesgo, y se habilita el uso de carriles exclusivos y la posibilidad de invadir vías en cualquier sentido."
-    },
-    {
-      "titulo": "Descuento del 50% por pronto pago, ahora condicionado a no impugnar",
-      "impacto": "El descuento del 50% por pronto pago de multas, ya vigente, ahora exige no impugnar la citación para acceder a él, y el pago con descuento deja de ser reembolsable si la sanción se modifica después.",
-      "tags": [
-        {
-          "text": "Art. 72 reforma → Disposición General Trigésima Cuarta LOTTTSV vigente",
-          "type": "art"
-        }
+        { "text": "Art. 35 reforma → art. 82 LOTTTSV vigente", "type": "art" }
       ],
       "grupo": "Sanciones y garantías procesales"
     },
     {
-      "titulo": "Destino de las multas de tránsito",
+      "titulo": "Notificación previa antes de multas y cobro coactivo",
+      "impacto": "No podrá imponerse una multa, iniciar un procedimiento coactivo o aplicar medidas cautelares sin verificar que el propietario o presunto infractor fue legalmente notificado y tuvo posibilidad de impugnar.",
       "tags": [
-        {
-          "text": "Art. 77 reforma → nueva Disposición General Sexagésima Octava LOTTTSV",
-          "type": "art"
-        }
+        { "text": "Arts. 50 y 51 reforma → arts. 179 y 179.b LOTTTSV vigente", "type": "art" }
       ],
-      "grupo": "Reglas de multas e implementación",
-      "impacto": "Los valores recaudados por multas de tránsito se destinan por ley a inversión en seguridad vial, reducción de siniestralidad, señalización y educación vial, con seguimiento del ente rector de finanzas públicas."
+      "grupo": "Sanciones y garantías procesales"
     },
     {
-      "titulo": "Normativa de la metodología tarifaria nacional",
+      "titulo": "Descuento del 50% condicionado a no impugnar",
+      "impacto": "El descuento del 50% por pago dentro de 20 días se aplicará únicamente cuando el infractor acepte la sanción y no la impugne.\n\nEl valor pagado con este beneficio no será reembolsable.",
       "tags": [
-        {
-          "text": "Disposición Final Décima Cuarta (bloque final)",
-          "type": "art"
-        }
+        { "text": "Art. 72 reforma → Disposición General Trigésima Cuarta LOTTTSV vigente", "type": "art" }
       ],
-      "grupo": "Reglas de multas e implementación",
-      "impacto": "El ente rector de transporte tiene un plazo para emitir, mediante acuerdo ministerial, la metodología tarifaria nacional que crea la reforma."
+      "grupo": "Sanciones y garantías procesales"
+    },
+    {
+      "titulo": "Exoneración de multas para vehículos oficiales",
+      "impacto": "La exoneración por infracciones vinculadas al cumplimiento de funciones se aplicará también a vehículos de autoridades que requieran protección por su perfil de riesgo, además de los vehículos de seguridad y emergencia.",
+      "tags": [
+        { "text": "Art. 76 reforma → Disposición General Sexagésima Séptima LOTTTSV vigente", "type": "art" }
+      ],
+      "grupo": "Sanciones y garantías procesales"
+    },
+    {
+      "titulo": "Destino de los recursos por multas",
+      "impacto": "Los recursos recaudados por multas deberán destinarse a seguridad vial, reducción de siniestralidad, señalización y educación vial, bajo seguimiento del ente rector de finanzas públicas.",
+      "tags": [
+        { "text": "Art. 77 reforma → nueva Disposición General Sexagésima Octava LOTTTSV", "type": "art" }
+      ],
+      "grupo": "Reglas de multas e implementación"
+    },
+    {
+      "titulo": "Se elimina la reducción local de multas administrativas",
+      "impacto": "Los GAD ya no podrán establecer mediante ordenanza porcentajes de reducción de multas y recargos por infracciones administrativas locales.",
+      "tags": [
+        { "text": "Disposición Derogatoria Tercera (deroga D. General Trigésima Quinta LOTTTSV vigente)", "type": "art" }
+      ],
+      "grupo": "Reglas de multas e implementación"
+    },
+    {
+      "titulo": "Metodología tarifaria mediante acuerdo ministerial",
+      "impacto": "El ente rector de transporte emitirá mediante acuerdo ministerial la metodología nacional para fijar tarifas del transporte público y comercial, incluidas las tarifas diferenciadas.",
+      "tags": [
+        { "text": "Disposición Final Décima Cuarta (bloque final)", "type": "art" }
+      ],
+      "grupo": "Reglas de multas e implementación"
     }
   ]
 }
