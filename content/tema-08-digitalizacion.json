@@ -6,7 +6,10 @@
       "titulo": "Sistema Nacional Unificado de Recaudación y Gestión de Peajes",
       "impacto": "Todo administrador de peajes en la red vial estatal o corredores delegados — público, concesionado o gestor privado — deberá integrarse a un sistema nacional único obligatorio, en vez del uso automático limitado a usuarios frecuentes que rige hoy; la titularidad de la recaudación se mantiene en cada administrador.",
       "tags": [
-        { "text": "Art. 25 reforma → art. 64.a LOTTTSV vigente", "type": "art" }
+        {
+          "text": "Art. 25 reforma → art. 64.a LOTTTSV vigente",
+          "type": "art"
+        }
       ],
       "grupo": "Peajes"
     },
@@ -14,7 +17,10 @@
       "titulo": "Medios tecnológicos interoperables para peajes",
       "impacto": "Se exige interoperabilidad con los sistemas nacionales de identificación vehicular y control de tránsito, estándares de **ciberseguridad y protección de datos**, y transmisión en tiempo real de información operativa y financiera — hoy basta un solo medio automático con opción de pago manual.",
       "tags": [
-        { "text": "Art. 26 reforma → art. 64.b LOTTTSV vigente", "type": "art" }
+        {
+          "text": "Art. 26 reforma → art. 64.b LOTTTSV vigente",
+          "type": "art"
+        }
       ],
       "grupo": "Peajes"
     },
@@ -22,7 +28,10 @@
       "titulo": "Dispositivo Electrónico de Identificación Vehicular",
       "impacto": "Se crea un **Dispositivo Electrónico de Identificación Vehicular** obligatorio para todo vehículo, con base de datos administrada por la ANT junto con la Policía Nacional y el ECU 911 — hoy no existe.",
       "tags": [
-        { "text": "Art. 30 reforma → nuevo art. 72.1 LOTTTSV", "type": "art" }
+        {
+          "text": "Art. 30 reforma → nuevo art. 72.1 LOTTTSV",
+          "type": "art"
+        }
       ],
       "grupo": "Identificación y GPS vehicular"
     },
@@ -30,7 +39,10 @@
       "titulo": "GPS obligatorio se extiende a transporte comercial",
       "impacto": "El sistema de GPS, hoy obligatorio solo para transporte público, se extiende a **todas las modalidades comerciales**; la adquisición e instalación corre por cuenta de cada operadora, con interoperabilidad hacia el ECU 911.",
       "tags": [
-        { "text": "Art. 34 reforma → art. 79.1 LOTTTSV vigente", "type": "art" }
+        {
+          "text": "Art. 34 reforma → art. 79.1 LOTTTSV vigente",
+          "type": "art"
+        }
       ],
       "grupo": "Identificación y GPS vehicular"
     },
@@ -38,7 +50,10 @@
       "titulo": "Registro Nacional Integral y Gestión del Transporte Terrestre",
       "impacto": "El Registro Nacional Integral y Gestión del Transporte Terrestre se consolida como una plataforma **única y obligatoria** a nivel nacional, con administración compartida entre la ANT y el ente rector de seguridad ciudadana según sus competencias. Los GAD deberán registrar de forma inmediata su información y se **prohíben registros paralelos** o no integrados al sistema.",
       "tags": [
-        { "text": "Art. 38 reforma → art. 86.a LOTTTSV vigente", "type": "art" }
+        {
+          "text": "Art. 38 reforma → art. 86.a LOTTTSV vigente",
+          "type": "art"
+        }
       ],
       "grupo": "Registro Nacional Integral"
     },
@@ -46,7 +61,10 @@
       "titulo": "Identificación electrónica para vehículos nuevos sin matrícula",
       "impacto": "Se crea un sistema electrónico de identificación para vehículos nuevos en trámite logístico, aduanero o de entrega, que reemplazará a la **guía de remisión** que se usa hoy; no habilita transporte de servicio ni uso particular permanente.",
       "tags": [
-        { "text": "Art. 48 reforma → nuevo art. 101.b LOTTTSV", "type": "art" }
+        {
+          "text": "Art. 48 reforma → nuevo art. 101.b LOTTTSV",
+          "type": "art"
+        }
       ],
       "grupo": "Identificación y GPS vehicular"
     },
@@ -54,8 +72,14 @@
       "titulo": "Telepeaje obligatorio en toda estación",
       "impacto": "Toda estación de peaje, sin importar quién la administre, deberá habilitar al menos un **carril exclusivo de cobro electrónico** — hoy no existe esa obligación —, priorizando zonas rurales y vías de alta siniestralidad.",
       "tags": [
-        { "text": "Disposición General Sexta (bloque final)", "type": "art" },
-        { "text": "1 año", "type": "plazo" }
+        {
+          "text": "Disposición General Sexta (bloque final)",
+          "type": "art"
+        },
+        {
+          "text": "1 año",
+          "type": "plazo"
+        }
       ],
       "grupo": "Peajes"
     },
@@ -63,8 +87,14 @@
       "titulo": "Plataforma tecnológica del Sistema Unificado de Peajes",
       "impacto": "El ente rector de transporte deberá tener lista la plataforma tecnológica del sistema unificado de peajes dentro de un año desde que se expida su reglamento técnico-operativo.",
       "tags": [
-        { "text": "Disposición General Séptima (bloque final)", "type": "art" },
-        { "text": "1 año desde el reglamento técnico-operativo", "type": "plazo" }
+        {
+          "text": "Disposición General Séptima (bloque final)",
+          "type": "art"
+        },
+        {
+          "text": "1 año desde el reglamento técnico-operativo",
+          "type": "plazo"
+        }
       ],
       "grupo": "Peajes"
     },
@@ -72,8 +102,14 @@
       "titulo": "Herramienta de registro para transporte de bienes por cuenta propia",
       "impacto": "La ANT deberá crear una herramienta tecnológica para que quienes transportan bienes por cuenta propia registren sus vehículos, algo que hoy no existe.",
       "tags": [
-        { "text": "Disposición General Décima Primera (bloque final)", "type": "art" },
-        { "text": "180 días", "type": "plazo" }
+        {
+          "text": "Disposición General Décima Primera (bloque final)",
+          "type": "art"
+        },
+        {
+          "text": "180 días",
+          "type": "plazo"
+        }
       ],
       "grupo": "Transporte por cuenta propia"
     },
@@ -81,8 +117,14 @@
       "titulo": "Interoperabilidad obligatoria de administradores de peajes",
       "impacto": "Todos los administradores de peajes — públicos, concesionados o delegados — deberán interoperar e integrarse al sistema nacional único dentro de los dos años siguientes a que esté implementada la plataforma, obligación que hoy no existe.",
       "tags": [
-        { "text": "Disposición General Décima Segunda (bloque final)", "type": "art" },
-        { "text": "2 años desde la implementación de la plataforma", "type": "plazo" }
+        {
+          "text": "Disposición General Décima Segunda (bloque final)",
+          "type": "art"
+        },
+        {
+          "text": "2 años desde la implementación de la plataforma",
+          "type": "plazo"
+        }
       ],
       "grupo": "Peajes"
     },
@@ -90,16 +132,25 @@
       "titulo": "Implementación del Registro Nacional Integral",
       "impacto": "La ANT tiene 365 días para poner en marcha el nuevo Registro Nacional Integral, y en ese mismo plazo los GAD deben digitalizar y adecuar sus propios registros para integrarlos.",
       "tags": [
-        { "text": "Disposición General Décima Tercera (bloque final)", "type": "art" },
-        { "text": "365 días", "type": "plazo" }
+        {
+          "text": "Disposición General Décima Tercera (bloque final)",
+          "type": "art"
+        },
+        {
+          "text": "365 días",
+          "type": "plazo"
+        }
       ],
       "grupo": "Registro Nacional Integral"
     },
     {
       "titulo": "Financiamiento de registros y plataformas",
-      "impacto": "Se crea una fuente de financiamiento específica para los nuevos registros, sistemas y plataformas, con tasas, derechos y multas de la propia Ley — hoy no existe ese mecanismo dedicado.",
+      "impacto": "La implementación de los nuevos registros, sistemas y plataformas se financiará con los recursos provenientes de tasas, derechos, multas y demás ingresos establecidos en la Ley, administrados por la ANT y el Ministerio de Infraestructura y Transporte.",
       "tags": [
-        { "text": "Disposición General Décima Cuarta (bloque final)", "type": "art" }
+        {
+          "text": "Disposición General Décima Cuarta (bloque final)",
+          "type": "art"
+        }
       ],
       "grupo": "Registro Nacional Integral"
     },
@@ -107,8 +158,14 @@
       "titulo": "Registro Nacional de Componentes Vehiculares",
       "impacto": "Se crea el **Registro Nacional de Componentes Vehiculares**, con lineamientos técnicos y jurídicos propios para la homologación y el registro digital de títulos habilitantes — hoy no existe.",
       "tags": [
-        { "text": "Disposición Transitoria Tercera (bloque final)", "type": "art" },
-        { "text": "2 años", "type": "plazo" }
+        {
+          "text": "Disposición Transitoria Tercera (bloque final)",
+          "type": "art"
+        },
+        {
+          "text": "2 años",
+          "type": "plazo"
+        }
       ],
       "grupo": "Registro Nacional Integral"
     },
@@ -116,8 +173,14 @@
       "titulo": "Adecuación de concesiones y APP al sistema de peajes",
       "impacto": "Los contratos de concesión, alianzas público-privadas y convenios de peajes ya firmados deberán adecuarse progresivamente al sistema unificado sin afectar su equilibrio económico-financiero, y podrán mantener sus plataformas propias mientras se completa la interoperabilidad total.",
       "tags": [
-        { "text": "Disposición Transitoria Quinta (bloque final)", "type": "art" },
-        { "text": "2 años", "type": "plazo" }
+        {
+          "text": "Disposición Transitoria Quinta (bloque final)",
+          "type": "art"
+        },
+        {
+          "text": "2 años",
+          "type": "plazo"
+        }
       ],
       "grupo": "Peajes"
     },
@@ -125,8 +188,14 @@
       "titulo": "Rotulado de vehículos de transporte por cuenta propia",
       "impacto": "Los vehículos de cuenta propia deberán adecuar su rotulado a nuevos principios de **minimización y protección de datos** una vez que la ANT expida la normativa técnica; hasta entonces, el rotulado actual no constituye infracción.",
       "tags": [
-        { "text": "Disposición Transitoria Sexta (bloque final)", "type": "art" },
-        { "text": "90 días desde la normativa secundaria", "type": "plazo" }
+        {
+          "text": "Disposición Transitoria Sexta (bloque final)",
+          "type": "art"
+        },
+        {
+          "text": "90 días desde la normativa secundaria",
+          "type": "plazo"
+        }
       ],
       "grupo": "Transporte por cuenta propia"
     },
@@ -134,8 +203,14 @@
       "titulo": "Herramienta de registro para cuenta propia de bienes",
       "impacto": "La ANT deberá implementar, en un plazo separado de 120 días, otra herramienta tecnológica de registro vehicular para personas naturales o jurídicas que transportan bienes por cuenta propia — obligación adicional a la ya prevista para este mismo sector.",
       "tags": [
-        { "text": "Disposición Transitoria Séptima (bloque final)", "type": "art" },
-        { "text": "120 días", "type": "plazo" }
+        {
+          "text": "Disposición Transitoria Séptima (bloque final)",
+          "type": "art"
+        },
+        {
+          "text": "120 días",
+          "type": "plazo"
+        }
       ],
       "grupo": "Transporte por cuenta propia"
     },
@@ -143,8 +218,14 @@
       "titulo": "Normativa del Sistema de Peajes Automáticos",
       "impacto": "El ente rector de transporte, en coordinación con quienes recaudan peajes hoy, deberá dictar en un año la normativa para poner en marcha el sistema nacional unificado.",
       "tags": [
-        { "text": "Disposición Final Décima (bloque final)", "type": "art" },
-        { "text": "1 año", "type": "plazo" }
+        {
+          "text": "Disposición Final Décima (bloque final)",
+          "type": "art"
+        },
+        {
+          "text": "1 año",
+          "type": "plazo"
+        }
       ],
       "grupo": "Peajes"
     },
@@ -152,26 +233,14 @@
       "titulo": "Reglas de acceso y uso de los datos del GPS",
       "impacto": "En 180 días deberán fijarse las reglas de acceso, uso y tratamiento de la información que generan los GPS de transporte, con garantías de confidencialidad y protección de datos personales — hoy no existen reglas específicas.",
       "tags": [
-        { "text": "Disposición Final Décima Primera (bloque final)", "type": "art" },
-        { "text": "180 días", "type": "plazo" }
-      ],
-      "grupo": "Identificación y GPS vehicular"
-    },
-    {
-      "titulo": "Reglamento técnico-operativo de peajes",
-      "impacto": "El ente rector de transporte deberá expedir en 180 días el reglamento técnico-operativo del sistema nacional de peajes, paso previo a la plataforma tecnológica.",
-      "tags": [
-        { "text": "Disposición Final Décima Segunda (bloque final)", "type": "art" },
-        { "text": "180 días", "type": "plazo" }
-      ],
-      "grupo": "Peajes"
-    },
-    {
-      "titulo": "Normativa del sistema de identificación vehicular para vehículos nuevos",
-      "impacto": "La ANT tiene 180 días para reglamentar el nuevo sistema electrónico de identificación de vehículos nuevos; hasta que esté disponible, se sigue usando la guía de remisión, sin vacío en la transición.",
-      "tags": [
-        { "text": "Disposición Final Décima Tercera (bloque final)", "type": "art" },
-        { "text": "180 días", "type": "plazo" }
+        {
+          "text": "Disposición Final Décima Primera (bloque final)",
+          "type": "art"
+        },
+        {
+          "text": "180 días",
+          "type": "plazo"
+        }
       ],
       "grupo": "Identificación y GPS vehicular"
     },
@@ -179,7 +248,10 @@
       "titulo": "Se deroga la interconexión y acceso público del registro anterior",
       "impacto": "Se deroga la norma que regulaba la interconexión y el acceso al registro nacional anterior: esa función queda absorbida directamente por el nuevo Registro Nacional Integral.",
       "tags": [
-        { "text": "Disposición Derogatoria Primera — deroga art. 86.b LOTTTSV vigente", "type": "art" }
+        {
+          "text": "Disposición Derogatoria Primera — deroga art. 86.b LOTTTSV vigente",
+          "type": "art"
+        }
       ],
       "grupo": "Registro Nacional Integral"
     }
