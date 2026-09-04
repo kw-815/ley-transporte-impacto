@@ -215,6 +215,36 @@
       "grupo": "Peajes"
     },
     {
+      "titulo": "Reglamento técnico-operativo de peajes",
+      "impacto": "El ente rector de transporte deberá expedir en 180 días el reglamento técnico-operativo del sistema nacional de peajes, paso previo a la plataforma tecnológica.",
+      "tags": [
+        {
+          "text": "Disposición Final Décima Segunda (bloque final)",
+          "type": "art"
+        },
+        {
+          "text": "180 días",
+          "type": "plazo"
+        }
+      ],
+      "grupo": "Peajes"
+    },
+    {
+      "titulo": "Normativa del sistema de identificación vehicular para vehículos nuevos",
+      "impacto": "La ANT tiene 180 días para reglamentar el nuevo sistema electrónico de identificación de vehículos nuevos; hasta que esté disponible, se sigue usando la guía de remisión, sin vacío en la transición.",
+      "tags": [
+        {
+          "text": "Disposición Final Décima Tercera (bloque final)",
+          "type": "art"
+        },
+        {
+          "text": "180 días",
+          "type": "plazo"
+        }
+      ],
+      "grupo": "Identificación y GPS vehicular"
+    },
+    {
       "titulo": "Se deroga la interconexión y acceso público del registro anterior",
       "impacto": "Se deroga la norma que regulaba la interconexión y el acceso al registro nacional anterior: esa función queda absorbida directamente por el nuevo Registro Nacional Integral.",
       "tags": [
