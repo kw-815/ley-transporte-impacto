@@ -68,7 +68,7 @@
     },
     {
       "titulo": "Nuevas infracciones y revocatoria por reincidencia",
-      "impacto": "Se agregan dos infracciones muy graves para escuelas de conducción — no conservar el **archivo físico y digital de alumnos por cinco años**, y acreditar falsamente un título o certificado —, y la reincidencia pasa a computarse en una ventana de **cinco años** (antes, uno), con revocatoria de la autorización si se repite dos veces en ese plazo.",
+      "impacto": "En caso de reincidencia por la cual haya sido sancionado con falta muy grave por dos ocasiones dentro del periodo de cinco años, se procederá a aplicar la revocatoria de la autorización.",
       "tags": [
         { "text": "Art. 57 reforma → art. 194 LOTTTSV vigente", "type": "art" }
       ],

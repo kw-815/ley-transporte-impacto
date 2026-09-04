@@ -18,7 +18,7 @@
     },
     {
       "titulo": "Gestión y construcción de terminales, a cargo de los GAD",
-      "impacto": "La construcción, administración y operación de los terminales pasa de la ANT a los **GAD** regionales, metropolitanos y municipales de su jurisdicción, que pueden usar asociación público-privada o gestión delegada siempre que la titularidad pública y el control permanezcan en el GAD; se suma la obligación de generar y transmitir datos de origen y destino.",
+      "impacto": "Los **GAD** regionales, metropolitanos y municipales asumirán la construcción, administración y operación de los terminales terrestres dentro de su jurisdicción, pudiendo recurrir a asociaciones público-privadas o gestión delegada, siempre que mantengan la titularidad pública y el control. Además, deberán generarse, registrarse y transmitirse datos sobre el origen y destino de los viajes.",
       "tags": [
         {"text": "Art. 24 reforma → art. 62 LOTTTSV vigente", "type": "art"}
       ]
