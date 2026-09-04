@@ -35,6 +35,14 @@
       "grupo": "Control operativo en la vía"
     },
     {
+      "titulo": "Ampliación de las facultades de la Policía",
+      "impacto": "La Dirección Nacional de Control de Tránsito y Seguridad Vial tendrá competencia expresa en la red vial estatal, vías colectoras y zonas de frontera, con facultad sancionatoria. También podrá recaudar las multas generadas dentro de su ámbito de operación.",
+      "tags": [
+        { "text": "Art. 69 reforma → art. 240.a LOTTTSV vigente", "type": "art" }
+      ],
+      "grupo": "Control operativo en la vía"
+    },
+    {
       "titulo": "Atribuciones de los GAD en tránsito y transporte",
       "impacto": "Para incrementar la oferta de transporte, el GAD ya no decide de forma autónoma: necesita informe técnico y jurídico previo de la ANT, cuyos títulos habilitantes pasan a ser válidos y vinculantes en todo el país; en cantones fronterizos, el control en la red vial estatal queda exclusivamente en manos de la Policía, incluso en tramos urbanos.",
       "tags": [
@@ -67,32 +75,8 @@
       "grupo": "Placas, matriculación y CRTV"
     },
     {
-      "titulo": "Competencia municipal de tránsito (COOTAD)",
-      "impacto": "La competencia municipal de tránsito suma la excepción de la red vial estatal no delegada, y las resoluciones y directrices técnicas de la ANT se vuelven de cumplimiento obligatorio para los GAD municipales.",
-      "tags": [
-        { "text": "Disposición Reformatoria Primera → art. 55.f COOTAD", "type": "art" }
-      ],
-      "grupo": "Competencias de los GAD (COOTAD)"
-    },
-    {
-      "titulo": "Competencia de tránsito de los GAD regionales (COOTAD)",
-      "impacto": "Los GAD regionales reciben el mismo ajuste que los municipales: excepción de la red vial estatal no delegada y armonización obligatoria con los lineamientos técnicos de la ANT.",
-      "tags": [
-        { "text": "Disposición Reformatoria Segunda → art. 84.q COOTAD", "type": "art" }
-      ],
-      "grupo": "Competencias de los GAD (COOTAD)"
-    },
-    {
-      "titulo": "Ejercicio de la competencia de tránsito y transporte (COOTAD)",
-      "impacto": "Se elimina la palabra \"exclusiva\" del ejercicio de la competencia municipal de tránsito: queda condicionado a la excepción de la red vial estatal no delegada y a la política pública y los lineamientos nacionales de la ANT.",
-      "tags": [
-        { "text": "Disposición Reformatoria Tercera → art. 130 COOTAD", "type": "art" }
-      ],
-      "grupo": "Competencias de los GAD (COOTAD)"
-    },
-    {
-      "titulo": "Informe técnico sobre competencias de los GAD",
-      "impacto": "En 180 días, la ANT y los entes rectores de seguridad e infraestructura deben elaborar un informe técnico sobre el ejercicio de competencias de tránsito por los GAD, que se remite al Consejo Nacional de Competencias — con la posibilidad de que este autorice la intervención de un GAD incumplido.",
+      "titulo": "Evaluación de las competencias de los GAD",
+      "impacto": "La ANT y los entes nacionales competentes evaluarán el ejercicio de las competencias de tránsito de los GAD. Ante incumplimientos, el Consejo Nacional de Competencias podrá disponer intervención, suspensión total o parcial de la competencia y medidas correctivas.",
       "tags": [
         { "text": "Disposición General Tercera (bloque final)", "type": "art" },
         { "text": "180 días", "type": "plazo" }
@@ -100,8 +84,8 @@
       "grupo": "Transición y disposiciones de cierre"
     },
     {
-      "titulo": "Depuración de contravenciones de la CTE",
-      "impacto": "En 90 días, la CTE debe dar de baja y depurar las contravenciones generadas por convenios con GAD de modelo B que no estaban facultados para el control operativo, y la ANT revisará todas las delegaciones hechas a la CTE.",
+      "titulo": "Depuración de multas emitidas sin competencia",
+      "impacto": "La CTE deberá eliminar las contravenciones originadas en convenios con GAD modelo B que no estaban facultados para ejercer control operativo, incluidas sus réplicas en la Base Única Nacional de Datos de Tránsito. En el mismo plazo, la ANT revisará todas las delegaciones otorgadas a la CTE y podrá eliminarlas.",
       "tags": [
         { "text": "Disposición General Quinta (bloque final)", "type": "art" },
         { "text": "90 días", "type": "plazo" }
@@ -109,8 +93,8 @@
       "grupo": "Transición y disposiciones de cierre"
     },
     {
-      "titulo": "Retiro de medios tecnológicos que incumplan la señalización",
-      "impacto": "En 180 días, el ente rector de transporte y la ANT deben verificar el cumplimiento de las reglas de señalización en todos los medios tecnológicos de control instalados en el país, y retirar de inmediato, con debido proceso, los que incumplan.",
+      "titulo": "Revisión nacional de medios tecnológicos",
+      "impacto": "La ANT y el ente rector revisarán los medios tecnológicos de control instalados en el país. Los equipos que incumplan las reglas de señalización deberán ser retirados, previo debido proceso.",
       "tags": [
         { "text": "Disposición Final Primera (bloque final)", "type": "art" },
         { "text": "180 días", "type": "plazo" }
@@ -118,8 +102,8 @@
       "grupo": "Transición y disposiciones de cierre"
     },
     {
-      "titulo": "Armonización normativa entre el CNC y los GAD",
-      "impacto": "El Consejo Nacional de Competencias armonizará en 180 días la normativa de tránsito entre el nivel nacional y los GAD, que luego tendrán 180 días adicionales para ajustar sus ordenanzas locales.",
+      "titulo": "Adecuación de las ordenanzas locales",
+      "impacto": "El Consejo Nacional de Competencias tendrá 180 días para armonizar la normativa nacional y descentralizada. Posteriormente, los GAD tendrán otros 180 días para adecuar sus ordenanzas, resoluciones y normativa local a la Ley y a la normativa técnica nacional.",
       "tags": [
         { "text": "Disposición Final Cuarta (bloque final)", "type": "art" },
         { "text": "180 días + 180 días", "type": "plazo" }
@@ -127,32 +111,56 @@
       "grupo": "Transición y disposiciones de cierre"
     },
     {
-      "titulo": "Contratos de fotomultas vigentes en GAD modelo A",
-      "impacto": "Los contratos de medios tecnológicos de control vigentes en GAD modelo A se mantienen hasta su plazo si no están en incumplimiento, pero deben revisarse y, de ser necesario, renegociarse para ajustarse a la nueva Ley.",
+      "titulo": "Reglas nacionales obligatorias para municipios",
+      "impacto": "La competencia municipal de tránsito excluye la red vial estatal no delegada, y las resoluciones, reglamentos y directrices técnicas y operativas de la ANT serán obligatorias para los GAD.",
+      "tags": [
+        { "text": "Disposición Reformatoria Primera → art. 55.f COOTAD", "type": "art" }
+      ],
+      "grupo": "Transición y disposiciones de cierre"
+    },
+    {
+      "titulo": "Reglas nacionales obligatorias para distritos metropolitanos",
+      "impacto": "Los GAD metropolitanos deberán ejercer sus competencias fuera de la red vial estatal no delegada y armonizar sus ordenanzas con los lineamientos técnicos nacionales.",
+      "tags": [
+        { "text": "Disposición Reformatoria Segunda → art. 84.q COOTAD", "type": "art" }
+      ],
+      "grupo": "Transición y disposiciones de cierre"
+    },
+    {
+      "titulo": "Nuevo marco para el ejercicio de la competencia local",
+      "impacto": "Se elimina la referencia al carácter \"exclusivo\" de la competencia municipal de tránsito. El control local queda sujeto a la política pública nacional y a las reglas técnicas de la ANT; además, podrán existir acuerdos de control conjunto, delegación operativa o apoyo técnico sin transferir la titularidad de la competencia.",
+      "tags": [
+        { "text": "Disposición Reformatoria Tercera → art. 130 COOTAD", "type": "art" }
+      ],
+      "grupo": "Transición y disposiciones de cierre"
+    },
+    {
+      "titulo": "Contratos vigentes de fotomultas",
+      "impacto": "Los contratos de medios tecnológicos celebrados por GAD modelo A continuarán hasta su vencimiento si no están en incumplimiento, pero deberán revisarse y, de ser necesario, renegociarse o adecuarse a las nuevas condiciones técnicas, de señalización, interoperabilidad, supervisión y régimen económico.",
       "tags": [
         { "text": "Disposición Transitoria Segunda (bloque final)", "type": "art" }
       ],
       "grupo": "Transición y disposiciones de cierre"
     },
     {
-      "titulo": "Fin de la responsabilidad transitoria de la Policía",
-      "impacto": "Se deroga la disposición transitoria que asignaba a la Policía el control de tránsito mientras ANT y GAD construían institucionalidad: el nuevo reparto permanente de competencias la vuelve innecesaria.",
+      "titulo": "Fin del régimen transitorio de control policial",
+      "impacto": "Se elimina la disposición que mantenía temporalmente a la Policía a cargo del control mientras la ANT y los GAD desarrollaban la institucionalidad necesaria para asumir sus competencias.",
       "tags": [
         { "text": "Disposición Derogatoria Quinta → Disposición Transitoria Décima Cuarta LOTTTSV vigente", "type": "art" }
       ],
       "grupo": "Transición y disposiciones de cierre"
     },
     {
-      "titulo": "Fin de la formación transitoria de personal civil por la ANT",
-      "impacto": "Se deroga la disposición que encargaba a la ANT formar personal civil de control mientras los GAD asumían el control efectivo: el nuevo reparto de competencias ya no depende de ese régimen transitorio.",
+      "titulo": "Fin del régimen transitorio de formación y control",
+      "impacto": "Se elimina la disposición que encargaba a la ANT la formación del personal civil y mantenía a la Policía en el control hasta que los GAD asumieran efectivamente la competencia.",
       "tags": [
-        { "text": "Disposición Derogatoria Sexta → Disposición Transitoria Décimo Novena LOTTTSV vigente", "type": "art" }
+        { "text": "Disposición Derogatoria Sexta → Disposición Transitoria Décima Novena LOTTTSV vigente", "type": "art" }
       ],
       "grupo": "Transición y disposiciones de cierre"
     },
     {
-      "titulo": "Fin del reglamento transitorio para que los GAD asuman licencias y placas",
-      "impacto": "Se deroga el reglamento transitorio que preveía que los GAD asumieran la entrega de licencias y placas: coherente con la recentralización de placas en la ANT (el trámite de licencias se trata en el Tema 7).",
+      "titulo": "Fin del régimen transitorio para licencias y placas",
+      "impacto": "Se elimina la disposición que ordenaba establecer los parámetros para que los GAD asumieran la entrega de licencias y placas, consistente con la nueva concentración de la competencia sobre placas en la ANT.",
       "tags": [
         { "text": "Disposición Derogatoria Séptima → Disposición Transitoria Trigésima Quinta LOTTTSV vigente", "type": "art" }
       ],

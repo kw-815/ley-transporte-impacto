@@ -1,6 +1,6 @@
 {
   "meta_desc": "Quiénes integran y presiden los órganos rectores del sistema de transporte y qué requisitos rigen a su Director Ejecutivo, según la reforma a la LOTTTSV.",
-  "en_sintesis": "La reforma incorpora al ente rector de seguridad ciudadana en la conducción del sistema de transporte, modifica la integración y funcionamiento del Directorio de la ANT y reorganiza la participación institucional de la CTE y la Policía. Además, fortalece las capacidades administrativas, sancionatorias y presupuestarias de la Dirección Nacional de Control de Tránsito.",
+  "en_sintesis": "La reforma incorpora al ente rector de seguridad ciudadana en la conducción del sistema de transporte, modifica la integración y funcionamiento del Directorio de la ANT y reorganiza la participación institucional de la CTE y la Policía.",
   "items": [
     {
       "titulo": "Quinto órgano del sector del transporte",
@@ -55,14 +55,6 @@
       "impacto": "La Comisión de Tránsito del Ecuador pasa a estar adscrita al ministerio rector de seguridad ciudadana, protección interna y orden público.\n\nAdemás, podrá ejercer control por delegación de la ANT en territorios cuyos GAD no estén facultados para hacerlo y, excepcionalmente, intervenir a pedido de un GAD cuando la ANT determine que este no tiene capacidad para ejercer el control operativo.",
       "tags": [
         { "text": "Art. 68 reforma → art. 234 LOTTTSV vigente", "type": "art" }
-      ],
-      "grupo": "Dirección Ejecutiva, CTE y Policía"
-    },
-    {
-      "titulo": "Mayores atribuciones para la Dirección Nacional de Control de Tránsito",
-      "impacto": "La Dirección Nacional de Control de Tránsito de la Policía amplía su ámbito de actuación a vías colectoras y zonas de frontera y obtiene facultad sancionatoria a nivel nacional.\n\nTambién podrá recaudar las multas generadas dentro de su ámbito de operación, administrar su presupuesto y contratar bienes, servicios, consultorías y personal civil.",
-      "tags": [
-        { "text": "Art. 69 reforma → art. 240.a LOTTTSV vigente", "type": "art" }
       ],
       "grupo": "Dirección Ejecutiva, CTE y Policía"
     },

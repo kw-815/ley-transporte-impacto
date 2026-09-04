@@ -1,82 +1,82 @@
 {
   "meta_desc": "Quién puede operar qué modalidad de transporte, en qué ámbito, y bajo qué condiciones se abren o congelan nuevas rutas, según la reforma a la LOTTTSV.",
-  "en_sintesis": "La reforma reordena la oferta antes de ampliarla: la carga pesada se libera de rutas y frecuencias fijas, el transporte escolar intracantonal pasa a la ANT, y la prohibición de otorgar nuevas rutas y frecuencias se extiende hasta la aprobación de un Plan Nacional, con un plazo máximo de dos años.",
+  "en_sintesis": "La reforma refuerza el control de la ANT sobre títulos habilitantes, rutas y frecuencias. También flexibiliza el régimen de carga pesada, traslada el transporte escolar e institucional a la ANT y mantiene suspendida la creación de nuevas rutas hasta la aprobación del Plan Nacional.",
   "items": [
     {
-      "titulo": "Servicio de transporte comercial y carga pesada",
-      "impacto": "El transporte comercial de carga pesada deja de estar sujeto al establecimiento, autorización o asignación de rutas y frecuencias: se rige solo por permiso de operación y las condiciones técnicas que fije la ANT (este mismo artículo agrega también un criterio ambiental para Galápagos, ver Tema 11).",
+      "titulo": "Carga pesada sin rutas ni frecuencias",
+      "impacto": "El transporte comercial de carga pesada operará con permiso de operación, pero ya no estará sujeto a rutas ni frecuencias asignadas.",
       "tags": [
         { "text": "Art. 20 reforma → art. 57 LOTTTSV vigente", "type": "art" }
       ],
       "grupo": "Modalidades de transporte"
     },
     {
-      "titulo": "Transporte por cuenta propia",
-      "impacto": "El transporte de bienes por cuenta propia exige rotulado visible y permanente con datos institucionales mínimos — con anonimización de la información expuesta al público — y registro en línea gratuito en la plataforma de la ANT, acreditando la actividad económica con comprobantes de venta o guías de remisión del SRI.",
+      "titulo": "Nuevas condiciones para el transporte por cuenta propia",
+      "impacto": "El transporte por cuenta propia solo podrá movilizar bienes o personas vinculados al giro del negocio. Para bienes se exigirá rotulado, registro en la ANT y documentación que demuestre el vínculo de la carga con la actividad económica.",
       "tags": [
         { "text": "Art. 22 reforma → art. 58 LOTTTSV vigente", "type": "art" }
       ],
       "grupo": "Modalidades de transporte"
     },
     {
-      "titulo": "Ámbitos de operación del transporte público",
-      "impacto": "La ANT podrá autorizar excepcionalmente que el transporte público opere fuera de su ámbito habilitado por interés público, eventos o emergencias, y se habilitan las encomiendas y el servicio puerta a puerta — este último, solo con vehículos eléctricos o híbridos (ver Tema 11).",
+      "titulo": "Operación excepcional fuera del ámbito autorizado",
+      "impacto": "La ANT podrá autorizar temporalmente operaciones fuera del ámbito habilitado por interés público, emergencias, eventos especiales o contingencias.\n\nTambién se habilita a operadoras interprovinciales e intraprovinciales para transportar encomiendas y ofrecer servicios complementarios puerta a puerta.",
       "tags": [
         { "text": "Art. 28 reforma → art. 65 LOTTTSV vigente", "type": "art" }
       ],
       "grupo": "Modalidades de transporte"
     },
     {
-      "titulo": "Títulos habilitantes de transporte terrestre",
-      "impacto": "Los títulos habilitantes dejan de reservarse a personas jurídicas: se abren también a personas naturales que acrediten capacidad técnica y financiera, y cuando una ruta cruza dos o más cantones, los títulos de la ANT prevalecen sobre cualquier normativa local.",
-      "tags": [
-        { "text": "Art. 29 reforma → art. 72 LOTTTSV vigente", "type": "art" }
-      ],
-      "grupo": "Títulos habilitantes"
-    },
-    {
-      "titulo": "Estudio técnico no condiciona el título en carga pesada",
-      "impacto": "En transporte de carga pesada, el estudio técnico de necesidad deja de condicionar el otorgamiento del título habilitante: basta con cumplir los requisitos generales de la Ley y la normativa de la ANT.",
-      "tags": [
-        { "text": "Art. 31 reforma → art. 73 LOTTTSV vigente (inciso final)", "type": "art" }
-      ],
-      "grupo": "Títulos habilitantes"
-    },
-    {
-      "titulo": "Títulos habilitantes otorgados por la ANT",
-      "impacto": "Los títulos habilitantes de la ANT — contratos de operación, permisos de transporte comercial fuera del ámbito intracantonal y autorizaciones de cuenta propia — pasan a ser válidos y vinculantes en todo el país, con reconocimiento obligatorio por parte de los GAD.",
-      "tags": [
-        { "text": "Art. 32 reforma → art. 74 LOTTTSV vigente", "type": "art" }
-      ],
-      "grupo": "Títulos habilitantes"
-    },
-    {
-      "titulo": "Títulos habilitantes en el ámbito intracantonal",
-      "impacto": "El transporte escolar e institucional deja de emitirse por los GAD municipales incluso en el ámbito intracantonal: su título habilitante pasa a emitirlo la ANT.",
-      "tags": [
-        { "text": "Art. 33 reforma → art. 75 LOTTTSV vigente", "type": "art" }
-      ],
-      "grupo": "Títulos habilitantes"
-    },
-    {
-      "titulo": "Tricimotos y mototaxis",
-      "impacto": "Las tricimotos y mototaxis homologadas, que hoy solo pueden prestar servicio comercial, podrán además operar por cuenta propia, con sus variantes de pasajeros y de carga reconocidas expresamente.",
+      "titulo": "Tricimotos y mototaxis amplían sus modalidades",
+      "impacto": "Las tricimotos y mototaxis homologadas podrán prestar servicios comerciales o por cuenta propia, tanto para pasajeros como para carga.",
       "tags": [
         { "text": "Art. 70 reforma → Disposición General Segunda LOTTTSV vigente", "type": "art" }
       ],
       "grupo": "Modalidades de transporte"
     },
     {
-      "titulo": "Estudio técnico de necesidad del servicio",
-      "impacto": "El estudio técnico de necesidad para un título habilitante suma el cumplimiento previo de requisitos jurídicos, técnicos, vehiculares, de seguridad, ambientales y de aseguramiento, aunque la carga pesada queda exceptuada de este estudio.",
+      "titulo": "Títulos habilitantes para personas naturales y jurídicas",
+      "impacto": "Los títulos podrán otorgarse a personas naturales o jurídicas que acrediten capacidad técnica y financiera.\n\nSi una ruta atraviesa dos o más cantones, el título será emitido por la ANT y prevalecerá sobre normas o actos locales.",
+      "tags": [
+        { "text": "Art. 29 reforma → art. 72 LOTTTSV vigente", "type": "art" }
+      ],
+      "grupo": "Títulos habilitantes"
+    },
+    {
+      "titulo": "Carga pesada sin estudio de necesidad",
+      "impacto": "El estudio técnico de necesidad dejará de ser requisito condicionante para obtener títulos habilitantes de carga pesada.\n\nSe mantienen los demás requisitos legales, técnicos, vehiculares, ambientales, de seguridad y aseguramiento.",
+      "tags": [
+        { "text": "Art. 31 reforma → art. 73 LOTTTSV vigente", "type": "art" }
+      ],
+      "grupo": "Títulos habilitantes"
+    },
+    {
+      "titulo": "Validez nacional de los títulos de la ANT",
+      "impacto": "Los títulos emitidos por la ANT tendrán validez y carácter vinculante en todo el país y deberán ser reconocidos por los GAD.",
+      "tags": [
+        { "text": "Art. 32 reforma → art. 74 LOTTTSV vigente", "type": "art" }
+      ],
+      "grupo": "Títulos habilitantes"
+    },
+    {
+      "titulo": "Transporte escolar e institucional pasa a la ANT",
+      "impacto": "La ANT asumirá la emisión de títulos para transporte escolar e institucional, incluso en el ámbito intracantonal.\n\nLos títulos emitidos por los GAD deberán ajustarse a los estándares nacionales de la ANT.",
+      "tags": [
+        { "text": "Art. 33 reforma → art. 75 LOTTTSV vigente", "type": "art" }
+      ],
+      "grupo": "Títulos habilitantes"
+    },
+    {
+      "titulo": "Más requisitos para solicitar títulos habilitantes",
+      "impacto": "Las solicitudes para transporte público y comercial deberán cumplir requisitos jurídicos, técnicos, vehiculares, de seguridad, ambientales y de aseguramiento, además del estudio de necesidad cuando corresponda.\n\nLa carga pesada queda exceptuada únicamente del estudio de necesidad.",
       "tags": [
         { "text": "Art. 73 reforma → Disposición General Cuadragésima Octava LOTTTSV vigente", "type": "art" }
       ],
       "grupo": "Estudios técnicos y rutas"
     },
     {
-      "titulo": "Estudios técnicos y de necesidad en Galápagos",
-      "impacto": "En Galápagos, si el Consejo de Gobierno o el GAD municipal no emiten a tiempo su informe previo para un estudio técnico, cada cantón podrá regularizar de forma individual las modalidades de transporte existentes.",
+      "titulo": "Regularización de modalidades en Galápagos",
+      "impacto": "Si se retrasan los informes previos requeridos, cada cantón podrá avanzar individualmente en la regularización de modalidades de transporte en Galápagos.",
       "tags": [
         { "text": "Art. 75 reforma → Disposición General Sexagésima Tercera LOTTTSV vigente", "type": "art" }
       ],
@@ -84,7 +84,7 @@
     },
     {
       "titulo": "Congelamiento de nuevas rutas y frecuencias",
-      "impacto": "El congelamiento de nuevas rutas y frecuencias se extiende hasta el Plan Nacional de Rutas y Frecuencias, con un plazo máximo de dos años (antes, uno); los contratos que caduquen en ese período podrán prorrogarse si cumplen vida útil y revisión técnica, y se agrega una excepción para GAD municipales con regulación histórica de rutas.",
+      "impacto": "No podrán otorgarse nuevas rutas y frecuencias hasta la aprobación del Plan Nacional de Rutas y Frecuencias, que deberá emitirse en un plazo máximo de dos años.\n\nMientras tanto, podrán prorrogarse contratos vigentes y reorganizarse las rutas existentes. La reforma mantiene excepciones específicas.",
       "tags": [
         { "text": "Art. 78 reforma → Disposición Transitoria Octogésima LOTTTSV vigente", "type": "art" },
         { "text": "Hasta 2 años", "type": "plazo" }
@@ -92,28 +92,20 @@
       "grupo": "Estudios técnicos y rutas"
     },
     {
-      "titulo": "Revisión integral de todos los títulos habilitantes",
-      "impacto": "En 360 días, la ANT — con apoyo de la Policía — revisará todos los títulos habilitantes otorgados en el país, incluidos los intracantonales, y podrá suspender, modificar o revocar los que contravengan la Ley.",
-      "tags": [
-        { "text": "Disposición General Cuarta (bloque final)", "type": "art" },
-        { "text": "360 días", "type": "plazo" }
-      ],
-      "grupo": "Implementación"
-    },
-    {
-      "titulo": "Transición para vehículos de matrícula extranjera",
-      "impacto": "Mientras se implementan en su totalidad los nuevos mecanismos del Art. 65, se mantienen vigentes los requisitos actuales para el ingreso y circulación de vehículos de matrícula extranjera.",
-      "tags": [
-        { "text": "Disposición Transitoria Cuarta (bloque final)", "type": "art" }
-      ],
-      "grupo": "Implementación"
-    },
-    {
-      "titulo": "Catastro de vehículos sin título habilitante en Galápagos",
-      "impacto": "En 90 días, la ANT y el Consejo de Gobierno de Galápagos levantarán un catastro de vehículos de transporte público y comercial sin título habilitante en la provincia, y habilitarán por única vez su regularización sin exigir el estudio técnico de necesidad.",
+      "titulo": "Regularización excepcional en Galápagos",
+      "impacto": "La ANT y el Consejo de Gobierno de Galápagos levantarán un catastro de vehículos de transporte público y comercial sin título habilitante, para su regularización excepcional.",
       "tags": [
         { "text": "Disposición Transitoria Octava (bloque final)", "type": "art" },
         { "text": "90 días", "type": "plazo" }
+      ],
+      "grupo": "Implementación"
+    },
+    {
+      "titulo": "Revisión de todos los títulos habilitantes",
+      "impacto": "La ANT revisará todos los títulos habilitantes vigentes en el país, incluidos los emitidos por los GAD.\n\nSi detecta incompatibilidades o superposición de competencias, podrá disponer su modificación, suspensión o revocatoria.",
+      "tags": [
+        { "text": "Disposición General Cuarta (bloque final)", "type": "art" },
+        { "text": "360 días", "type": "plazo" }
       ],
       "grupo": "Implementación"
     }
