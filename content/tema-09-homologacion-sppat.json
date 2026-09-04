@@ -134,10 +134,10 @@
     },
     {
       "titulo": "Tasa SPPAT para motocicletas y vehículos eléctricos",
-      "impacto": "El SPPAT deberá fijar en 180 días el valor de la tasa para motocicletas y vehículos eléctricos, categoría que hoy no tiene un valor definido.",
+      "impacto": "El SPPAT deberá fijar en 180 días el valor de la tasa para motocicletas y vehículos eléctricos, categoría que hoy no tiene un valor definido, y contará con 30 días adicionales para emitir los lineamientos de los planes financiados con los valores residuales del fondo.",
       "tags": [
         { "text": "Disposición Final Octava (bloque final)", "type": "art" },
-        { "text": "180 días (tasa) / 30 días (lineamientos)", "type": "plazo" }
+        { "text": "180 / 30 días", "type": "plazo" }
       ],
       "grupo": "SPPAT"
     },
