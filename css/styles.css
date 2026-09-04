@@ -2275,6 +2275,7 @@ section[id] { scroll-margin-top: calc(var(--nav-h) + 1rem); }
   color: var(--t-90);
   max-width: 68ch;
 }
+.cambio__text + .cambio__text { margin-top: var(--s-3); }
 .cambio__text strong { color: var(--white); font-weight: 700; }
 .cambio__meta {
   display: flex;
@@ -2440,5 +2441,6 @@ section[id] { scroll-margin-top: calc(var(--nav-h) + 1rem); }
 @media (max-width: 640px) { .timeline__plazo-mobile { display: block; } }
 .timeline__title { font-size: var(--fs-base); font-weight: 700; color: var(--white); margin-bottom: 0.2rem; }
 .timeline__text { font-size: var(--fs-sm); line-height: 1.5; color: var(--t-75); }
+.timeline__text + .timeline__text { margin-top: 0.5rem; }
 .timeline__text strong { color: var(--t-90); font-weight: 600; }
 

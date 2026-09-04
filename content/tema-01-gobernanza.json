@@ -1,74 +1,74 @@
 {
   "meta_desc": "Quiénes integran y presiden los órganos rectores del sistema de transporte y qué requisitos rigen a su Director Ejecutivo, según la reforma a la LOTTTSV.",
-  "en_sintesis": "La reforma amplía la conducción del sistema de transporte: incorpora al ente rector de seguridad ciudadana como quinto órgano del sector y como nuevo integrante del Directorio de la ANT, traslada la Comisión de Tránsito del Ecuador a esa misma cartera, y refuerza las atribuciones y el presupuesto propio de la Dirección Nacional de Control de Tránsito de la Policía.",
+  "en_sintesis": "La reforma incorpora al ente rector de seguridad ciudadana en la conducción del sistema de transporte, modifica la integración y funcionamiento del Directorio de la ANT y reorganiza la participación institucional de la CTE y la Policía. Además, fortalece las capacidades administrativas, sancionatorias y presupuestarias de la Dirección Nacional de Control de Tránsito.",
   "items": [
     {
       "titulo": "Quinto órgano del sector del transporte",
-      "impacto": "Se agrega un quinto órgano al sector del transporte terrestre: el ente rector de seguridad ciudadana, protección interna y orden público, que se suma al Ministerio del sector, la ANT, los GAD y el Ministerio de Gobierno.",
+      "impacto": "Se incorpora como nuevo órgano del transporte terrestre, tránsito y seguridad vial al ente rector de seguridad ciudadana, protección interna y orden público, junto con el ente rector de transporte, la ANT, los GAD y el Ministerio de Gobierno.",
       "tags": [
         { "text": "Art. 2 reforma → art. 13 LOTTTSV vigente", "type": "art" }
       ],
       "grupo": "Directorio y órganos rectores"
     },
     {
-      "titulo": "Integración del Directorio de la ANT",
-      "impacto": "El Directorio de la ANT suma al ministro de seguridad ciudadana como nuevo miembro con voto — su delegado no puede ser el Director Nacional de Control de Tránsito — e incorpora con voz pero sin voto al Director Ejecutivo de la ANT como secretario, al Director de la CTE y al Director Nacional de Control de Tránsito; además podrá convocar a federaciones, cámaras y otros actores del sector.",
+      "titulo": "Nueva integración del Directorio de la ANT",
+      "impacto": "El ministro de seguridad ciudadana se incorpora al Directorio de la ANT con voz y voto. Se mantienen como participantes sin voto el Director Ejecutivo de la ANT, el Director de la CTE y el Director Nacional de Control de Tránsito, mientras que deja de constar el Presidente del Consejo Consultivo.\n\nAdemás, el Directorio podrá convocar a federaciones, cámaras y otros actores del sector cuando trate asuntos relacionados directamente con sus intereses.",
       "tags": [
         { "text": "Art. 3 reforma → art. 18 LOTTTSV vigente", "type": "art" }
       ],
       "grupo": "Directorio y órganos rectores"
     },
     {
-      "titulo": "Presidencia y secretaría del Consejo Consultivo",
-      "impacto": "La presidencia y secretaría del Consejo Consultivo Nacional dejan de elegirse entre los propios miembros del Consejo y pasan a designarse entre los miembros del Directorio de la ANT, por mayoría simple.",
+      "titulo": "Designación de la presidencia y secretaría del Consejo Consultivo",
+      "impacto": "La presidencia y secretaría del Consejo Consultivo dejan de elegirse entre sus propios integrantes y pasan a ser designadas, por mayoría simple, entre los miembros del Directorio de la ANT.",
       "tags": [
         { "text": "Art. 4 reforma → art. 27 LOTTTSV vigente", "type": "art" }
       ],
       "grupo": "Directorio y órganos rectores"
     },
     {
-      "titulo": "Mesa Técnica de Seguridad Vial",
-      "impacto": "La Mesa Técnica de Seguridad Vial deja de asesorar al Consejo Consultivo Nacional y pasa a asesorar al Directorio de la ANT; se prohíbe que los miembros del Directorio la integren, y se habilita convocar a la academia y al sector privado.",
+      "titulo": "Mesa Técnica de Seguridad Vial bajo el Directorio de la ANT",
+      "impacto": "La Mesa Técnica de Seguridad Vial pasa de asesorar al Consejo Consultivo a asesorar directamente al Directorio de la ANT. Los miembros del Directorio no podrán integrar la Mesa y podrán convocarse expertos de la academia y del sector privado.",
       "tags": [
         { "text": "Art. 5 reforma → art. 27.a LOTTTSV vigente", "type": "art" }
       ],
       "grupo": "Directorio y órganos rectores"
     },
     {
-      "titulo": "Requisitos del Director Ejecutivo de la ANT",
-      "impacto": "Se flexibiliza el requisito de experiencia del Director Ejecutivo de la ANT — ya no exige específicamente cuatro años en niveles directivos, basta experiencia afín al sector — y se agrega un nuevo requisito: no estar incurso en conflicto de intereses con personas sujetas a la regulación de la ANT.",
+      "titulo": "Nuevos requisitos para el Director Ejecutivo de la ANT",
+      "impacto": "Se modifica el requisito profesional para permitir experiencia relacionada con transporte, tránsito, seguridad vial, movilidad, logística, control, regulación o planificación del sector, sin establecer un período mínimo dentro de este numeral.\n\nSe mantiene el requisito vigente de cuatro años de experiencia en niveles directivos y se incorpora la prohibición de mantener conflictos de interés o vínculos con personas o empresas sujetas a regulación, supervisión o decisiones de la ANT.",
       "tags": [
-        { "text": "Art. 6 reforma → art. 28 LOTTTSV vigente (núms. 3 y 5)", "type": "art" }
+        { "text": "Art. 6 reforma → art. 28 LOTTTSV vigente", "type": "art" }
       ],
       "grupo": "Dirección Ejecutiva, CTE y Policía"
     },
     {
-      "titulo": "Incompatibilidades del Director Ejecutivo tras el cargo",
-      "impacto": "La prohibición específica de que el Director Ejecutivo sea propietario, directivo o tenga contratos de transporte con el Estado se reemplaza por una remisión general al régimen de incompatibilidades y conflictos de interés de la Ley, manteniendo el plazo de dos años tras dejar el cargo.",
+      "titulo": "Régimen de incompatibilidades del Director Ejecutivo",
+      "impacto": "La prohibición específica de mantener propiedad, cargos o contratos vinculados con empresas de transporte se reemplaza por una obligación general de cumplir el régimen de incompatibilidades y prevención de conflictos de interés, durante el ejercicio del cargo y hasta dos años después.",
       "tags": [
-        { "text": "Art. 7 reforma → art. 28 LOTTTSV vigente (último párrafo)", "type": "art" }
+        { "text": "Art. 7 reforma → art. 28 LOTTTSV vigente", "type": "art" }
       ],
       "grupo": "Dirección Ejecutiva, CTE y Policía"
     },
     {
-      "titulo": "Naturaleza jurídica de la Comisión de Tránsito del Ecuador",
-      "impacto": "La Comisión de Tránsito del Ecuador pasa a adscribirse al ministerio rector de seguridad ciudadana, protección interna y orden público, y podrá ejercer el control operativo de tránsito por delegación de la ANT en GAD que no lo hayan asumido, o a pedido excepcional de los que sí lo ejercen.",
+      "titulo": "CTE pasa al ente rector de seguridad ciudadana",
+      "impacto": "La Comisión de Tránsito del Ecuador pasa a estar adscrita al ministerio rector de seguridad ciudadana, protección interna y orden público.\n\nAdemás, podrá ejercer control por delegación de la ANT en territorios cuyos GAD no estén facultados para hacerlo y, excepcionalmente, intervenir a pedido de un GAD cuando la ANT determine que este no tiene capacidad para ejercer el control operativo.",
       "tags": [
         { "text": "Art. 68 reforma → art. 234 LOTTTSV vigente", "type": "art" }
       ],
       "grupo": "Dirección Ejecutiva, CTE y Policía"
     },
     {
-      "titulo": "Atribuciones de la Dirección Nacional de Control de Tránsito",
-      "impacto": "La Dirección Nacional de Control de Tránsito de la Policía suma jurisdicción sobre vías colectoras y zonas de frontera, gana facultad sancionatoria a nivel nacional con recaudación propia de multas, y pasa a manejar su propia proforma presupuestaria y la contratación de bienes, servicios y personal civil.",
+      "titulo": "Mayores atribuciones para la Dirección Nacional de Control de Tránsito",
+      "impacto": "La Dirección Nacional de Control de Tránsito de la Policía amplía su ámbito de actuación a vías colectoras y zonas de frontera y obtiene facultad sancionatoria a nivel nacional.\n\nTambién podrá recaudar las multas generadas dentro de su ámbito de operación, administrar su presupuesto y contratar bienes, servicios, consultorías y personal civil.",
       "tags": [
         { "text": "Art. 69 reforma → art. 240.a LOTTTSV vigente", "type": "art" }
       ],
       "grupo": "Dirección Ejecutiva, CTE y Policía"
     },
     {
-      "titulo": "Plazo para adecuar reglamentos generales de la Ley",
-      "impacto": "El ente rector del transporte y la ANT tienen 360 días desde la vigencia de la reforma para adecuar los reglamentos generales y la normativa secundaria de toda la Ley.",
+      "titulo": "Adecuación de reglamentos y normativa secundaria",
+      "impacto": "El ente rector del transporte y la ANT tendrán hasta 360 días para adecuar los reglamentos y la normativa secundaria a las nuevas disposiciones de la Ley.",
       "tags": [
         { "text": "Disposición Final Segunda (bloque final)", "type": "art" },
         { "text": "360 días", "type": "plazo" }

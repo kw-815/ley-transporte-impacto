@@ -88,6 +88,15 @@ def esc(s):
     s = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", s)
     return s
 
+def impacto_html(text, cls="cambio__text"):
+    """Un item puede traer varios parrafos separados por una linea en
+    blanco ("\n\n"); cada uno se renderiza como su propio <p>, sin fundir
+    el contenido en un solo bloque."""
+    paras = [p.strip() for p in re.split(r"\n\s*\n", text.strip()) if p.strip()]
+    if not paras:
+        paras = [text]
+    return "\n            ".join(f'<p class="{cls}">{esc(p)}</p>' for p in paras)
+
 def nav_html(current_num):
     items = []
     for num, slug, nombre, corto, _img in THEMES:
@@ -128,7 +137,7 @@ def cambio_html(item):
             {CHEVRON_SVG}
           </summary>
           <div class="cambio__body">
-            <p class="cambio__text">{esc(item["impacto"])}</p>{meta}
+            {impacto_html(item["impacto"])}{meta}
           </div>
         </details>'''
 
@@ -212,7 +221,7 @@ def disposiciones_html(items):
         <div class="timeline__body">
           <p class="timeline__plazo-mobile">{esc(plazo)}</p>
           <p class="timeline__title">{esc(it["titulo"])}</p>
-          <p class="timeline__text">{esc(it["impacto"])}</p>
+          {impacto_html(it["impacto"], cls="timeline__text")}
         </div>
       </article>''')
         parts.append('<div class="timeline">\n' + "\n".join(rows) + "\n    </div>")
@@ -227,7 +236,7 @@ def disposiciones_html(items):
             {CHEVRON_SVG}
           </summary>
           <div class="cambio__body">
-            <p class="cambio__text">{esc(it["impacto"])}</p>
+            {impacto_html(it["impacto"])}
             <div class="cambio__meta">{art_html}</div>
           </div>
         </details>''')
