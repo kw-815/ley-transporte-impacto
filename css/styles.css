@@ -2410,11 +2410,13 @@ section[id] { scroll-margin-top: calc(var(--nav-h) + 1rem); }
 @media (max-width: 640px) { .timeline__item { grid-template-columns: 24px 1fr; gap: var(--s-3); } }
 .timeline__plazo {
   position: relative;
+  min-width: 0;
   font-size: var(--fs-sm);
   font-weight: 700;
   color: var(--orange);
   text-align: right;
   padding-top: 0.15rem;
+  overflow-wrap: break-word;
 }
 @media (max-width: 640px) { .timeline__plazo { display: none; } }
 .timeline__dot {
