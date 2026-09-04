@@ -7,64 +7,96 @@
       "antes": "El Art. 13 vigente enumera cuatro órganos del transporte terrestre, tránsito y seguridad vial: el Ministerio del sector, la ANT, los GAD regionales, metropolitanos y municipales, y el Ministerio de Gobierno.",
       "ahora": "Se agrega un quinto órgano: **el ente rector de seguridad ciudadana, protección interna y orden público**.",
       "tags": [
-        {"text": "Art. 2 reforma → art. 13 LOTTTSV vigente", "type": "art"}
-      ]
+        {
+          "text": "Art. 2 reforma → art. 13 LOTTTSV vigente",
+          "type": "art"
+        }
+      ],
+      "grupo": "Directorio y órganos rectores"
     },
     {
       "titulo": "Integración del Directorio de la ANT",
       "antes": "El Art. 18 vigente integra el Directorio con siete miembros: el ministro del sector (preside), salud, educación, Gobierno, un representante del Presidente de la República y dos representantes de los GAD según su población.",
       "ahora": "Se agrega al **ministro de seguridad ciudadana** (su delegado no puede ser el Director Nacional de Control de Tránsito). El Director Ejecutivo de la ANT asiste con voz pero sin voto, en calidad de secretario; también asisten con voz el Director Ejecutivo de la CTE y el Director Nacional de Control de Tránsito. El Directorio podrá requerir la participación de federaciones, cámaras y otros actores del sector.",
       "tags": [
-        {"text": "Art. 3 reforma → art. 18 LOTTTSV vigente", "type": "art"}
-      ]
+        {
+          "text": "Art. 3 reforma → art. 18 LOTTTSV vigente",
+          "type": "art"
+        }
+      ],
+      "grupo": "Directorio y órganos rectores"
     },
     {
       "titulo": "Presidencia y secretaría del Consejo Consultivo",
       "antes": "El Art. 27 vigente designa presidente y secretario del Consejo Consultivo Nacional de entre los propios miembros de ese Consejo, por mayoría de sus integrantes.",
       "ahora": "Se designan **de entre los miembros del Directorio de la ANT**, por mayoría simple.",
       "tags": [
-        {"text": "Art. 4 reforma → art. 27 LOTTTSV vigente", "type": "art"}
-      ]
+        {
+          "text": "Art. 4 reforma → art. 27 LOTTTSV vigente",
+          "type": "art"
+        }
+      ],
+      "grupo": "Directorio y órganos rectores"
     },
     {
       "titulo": "Mesa Técnica de Seguridad Vial",
       "antes": "El Art. 27.a vigente crea la Mesa Técnica de Seguridad Vial como espacio de asesoría técnica **al Consejo Consultivo Nacional**, integrada por delegados permanentes de Policía Nacional, CTE, AME, Secretaría de Gestión de Riesgos y el área de análisis de datos de la ANT; sesiona bimensualmente.",
       "ahora": "La Mesa Técnica pasa a asesorar **al Directorio de la ANT**. Se prohíbe expresamente que los miembros del Directorio la integren, y se habilita convocar a la academia y al sector privado cuando el orden del día lo requiera.",
       "tags": [
-        {"text": "Art. 5 reforma → art. 27.a LOTTTSV vigente", "type": "art"}
-      ]
+        {
+          "text": "Art. 5 reforma → art. 27.a LOTTTSV vigente",
+          "type": "art"
+        }
+      ],
+      "grupo": "Directorio y órganos rectores"
     },
     {
       "titulo": "Requisitos del Director Ejecutivo de la ANT",
       "antes": "El Art. 28 vigente exige, entre otros requisitos, título profesional de tercer nivel con tres años de experiencia en el sector y cuatro años en niveles directivos.",
       "ahora": "Se exige título profesional de tercer nivel y experiencia relacionada o afín en transporte, tránsito, seguridad vial, movilidad, logística, control, regulación o planificación del sector, **sin el requisito específico de años en niveles directivos**. Se agrega un nuevo requisito: no encontrarse incurso en conflicto de intereses, directo o indirecto, con personas sujetas a la regulación o control de la ANT.",
       "tags": [
-        {"text": "Art. 6 reforma → art. 28 LOTTTSV vigente (núms. 3 y 5)", "type": "art"}
-      ]
+        {
+          "text": "Art. 6 reforma → art. 28 LOTTTSV vigente (núms. 3 y 5)",
+          "type": "art"
+        }
+      ],
+      "grupo": "Dirección Ejecutiva, CTE y Policía"
     },
     {
       "titulo": "Incompatibilidades del Director Ejecutivo tras el cargo",
       "antes": "El último párrafo del Art. 28 vigente prohíbe al Director Ejecutivo, mientras ejerce funciones y hasta dos años después, ser propietario, directivo, representante o apoderado de empresas de transporte, o mantener contratos con el Estado para prestar ese servicio.",
       "ahora": "Se reformula como una obligación general: el Director Ejecutivo, mientras ejerza funciones y **hasta dos años después de concluirlas**, deberá observar estrictamente el régimen de incompatibilidades y prevención de conflictos de interés previsto en la Ley y su normativa aplicable.",
       "tags": [
-        {"text": "Art. 7 reforma → art. 28 LOTTTSV vigente (último párrafo)", "type": "art"}
-      ]
+        {
+          "text": "Art. 7 reforma → art. 28 LOTTTSV vigente (último párrafo)",
+          "type": "art"
+        }
+      ],
+      "grupo": "Dirección Ejecutiva, CTE y Policía"
     },
     {
       "titulo": "Naturaleza jurídica de la Comisión de Tránsito del Ecuador",
       "antes": "El Art. 234 vigente define a la CTE como persona jurídica de derecho público desconcentrada, con autonomía funcional, administrativa, financiera y presupuestaria, domiciliada en Guayaquil, a cargo del control de la red vial estatal salvo zonas de competencia de los GAD y de la Policía Nacional.",
       "ahora": "La CTE **se adscribe al ministerio rector de seguridad ciudadana**, protección interna y orden público, y mantiene su domicilio en Guayaquil. Ejerce el control operativo de tránsito en la red vial estatal conforme a lo que determine el ente rector de transporte, en coordinación con el de seguridad ciudadana; puede además ejercer control por delegación de la ANT en GAD sin control operativo, o excepcionalmente a pedido de GAD que sí lo ejercen.",
       "tags": [
-        {"text": "Art. 68 reforma → art. 234 LOTTTSV vigente", "type": "art"}
-      ]
+        {
+          "text": "Art. 68 reforma → art. 234 LOTTTSV vigente",
+          "type": "art"
+        }
+      ],
+      "grupo": "Dirección Ejecutiva, CTE y Policía"
     },
     {
       "titulo": "Atribuciones de la Dirección Nacional de Control de Tránsito",
       "antes": "El Art. 240.a vigente define a la DNCTSV como dependencia de la Policía con jurisdicción en la red vial estatal, salvo circunscripciones de la CTE y zonas urbanas de los GAD, con once atribuciones (letras a-k), sin facultad sancionatoria expresa ni presupuesto propio.",
       "ahora": "Suma jurisdicción sobre **vías colectoras y zonas de frontera**, y gana **capacidad para ejercer la facultad sancionatoria a nivel nacional**. El listado de atribuciones se amplía con recaudación propia de multas mediante sistemas de la Policía, elaboración de su proforma presupuestaria, ejecución y liquidación del presupuesto, supervisión de recursos, contratación de bienes y servicios, y contratación de personal civil.",
       "tags": [
-        {"text": "Art. 69 reforma → art. 240.a LOTTTSV vigente", "type": "art"}
-      ]
+        {
+          "text": "Art. 69 reforma → art. 240.a LOTTTSV vigente",
+          "type": "art"
+        }
+      ],
+      "grupo": "Dirección Ejecutiva, CTE y Policía"
     },
     {
       "titulo": "Plazo para adecuar reglamentos generales de la Ley",
@@ -72,9 +104,16 @@
       "ahora": "El ente rector del transporte y la ANT deberán adecuar los reglamentos generales y la normativa secundaria que regulan la Ley dentro de un plazo de 360 días desde la entrada en vigencia de la reforma.",
       "impacto": "Es una disposición de cierre transversal a toda la reforma, no específica de un tema — se ubica aquí por ser la primera del bloque de implementación general.",
       "tags": [
-        {"text": "Disposición Final Segunda (bloque final)", "type": "art"},
-        {"text": "360 días", "type": "plazo"}
-      ]
+        {
+          "text": "Disposición Final Segunda (bloque final)",
+          "type": "art"
+        },
+        {
+          "text": "360 días",
+          "type": "plazo"
+        }
+      ],
+      "grupo": "Implementación"
     }
   ]
 }

@@ -82,6 +82,36 @@ def cambio_html(idx, num, item):
           </div>
         </details>'''
 
+def grouped_items_html(num, items):
+    """Agrupa items consecutivos por su campo opcional 'grupo', preservando
+    el orden de primera aparición. Si ningún item trae 'grupo', devuelve la
+    lista plana de siempre (sin encabezados)."""
+    if not any(it.get("grupo") for it in items):
+        return "\n\n".join(cambio_html(i + 1, num, it) for i, it in enumerate(items))
+
+    order = []
+    buckets = {}
+    for i, it in enumerate(items, 1):
+        g = it.get("grupo") or "Otros"
+        if g not in buckets:
+            buckets[g] = []
+            order.append(g)
+        buckets[g].append((i, it))
+
+    blocks = []
+    for g in order:
+        entries = buckets[g]
+        head = (
+            f'        <p class="cambios-grupo__label">'
+            f'<span class="cambios-grupo__dot" aria-hidden="true"></span>'
+            f'{esc(g)}'
+            f'<span class="cambios-grupo__count">{len(entries)}</span>'
+            f'</p>'
+        )
+        body = "\n\n".join(cambio_html(i, num, it) for i, it in entries)
+        blocks.append(head + "\n\n" + body)
+    return "\n\n".join(blocks)
+
 def build_page(theme, data):
     num, slug, nombre, corto, img = theme
     prev_theme = THEMES[num - 2] if num > 1 else None
@@ -113,9 +143,7 @@ def build_page(theme, data):
         <strong>A quién afecta</strong>
       </a>'''
 
-    items_html = "\n\n".join(
-        cambio_html(i + 1, num, item) for i, item in enumerate(data["items"])
-    )
+    items_html = grouped_items_html(num, data["items"])
 
     return f'''<!doctype html>
 <html lang="es">

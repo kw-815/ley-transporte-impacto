@@ -2195,6 +2195,38 @@ section[id] { scroll-margin-top: calc(var(--nav-h) + 1rem); }
    lista antes de entrar al detalle de cada uno. */
 .cambios { display: flex; flex-direction: column; gap: var(--s-2); margin-top: var(--s-5); }
 
+/* Encabezado de subgrupo dentro de un tema: rompe la lista plana en
+   bloques con nombre propio, para que se puedan escanear y saltar
+   grupos enteros en vez de leer fila por fila. */
+.cambios-grupo__label {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin: var(--s-4) 0 0.1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--t-15);
+  font-size: var(--fs-xs);
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--t-75);
+}
+.cambios > .cambios-grupo__label:first-child { margin-top: 0; }
+.cambios-grupo__dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--accent, var(--orange));
+  flex-shrink: 0;
+}
+.cambios-grupo__count {
+  margin-left: auto;
+  font-weight: 600;
+  letter-spacing: normal;
+  text-transform: none;
+  color: var(--t-40);
+}
+
 .cambio {
   position: relative;
   border-radius: var(--r-lg);

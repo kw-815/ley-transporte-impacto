@@ -6,85 +6,164 @@
       "titulo": "Nuevos objetivos de la Ley: movilidad activa y auditorías de seguridad vial",
       "antes": "El artículo 88 contempla doce literales de objetivos, hasta la letra k), sin mención expresa a movilidad activa, auditorías de seguridad vial ni reglamentación técnica vehicular.",
       "ahora": "Se agregan cinco literales (l-q): controlar a las personas e instituciones reguladas, promover la transición hacia movilidad activa, fomentar infraestructura vial segura a cargo de los GAD, fortalecer la reglamentación técnica vehicular y realizar auditorías de seguridad vial en diseño, construcción y operación.",
-      "tags": [{"text": "Art. 40 reforma → art. 88 LOTTTSV vigente (nuevas letras l-q)", "type": "art"}]
+      "tags": [
+        {
+          "text": "Art. 40 reforma → art. 88 LOTTTSV vigente (nuevas letras l-q)",
+          "type": "art"
+        }
+      ],
+      "grupo": "Conducta y protección vial"
     },
     {
       "titulo": "Prohibición de conducir bajo alcohol y sustancias sujetas a fiscalización",
       "antes": "Los usuarios de la vía deben comportarse sin obstaculizar la circulación ni generar peligro; los conductores deben mantener el control del vehículo.",
       "ahora": "Se agrega expresamente la prohibición de conducir de manera negligente, temeraria o **bajo los efectos del alcohol y sustancias sujetas a fiscalización**.",
       "impacto": "El mismo artículo agrega, en un párrafo distinto, la obligación de casco y prenda reflectiva para motos y motos eléctricas — ver el Tema 11 (Electromovilidad y micromovilidad).",
-      "tags": [{"text": "Art. 52 reforma → art. 181 LOTTTSV vigente", "type": "art"}]
+      "tags": [
+        {
+          "text": "Art. 52 reforma → art. 181 LOTTTSV vigente",
+          "type": "art"
+        }
+      ],
+      "grupo": "Conducta y protección vial"
     },
     {
       "titulo": "Prohibición de circular y estacionar en playas",
       "antes": "La LOTTTSV no regula la circulación de vehículos en playas.",
       "ahora": "Se prohíbe el ingreso, circulación, permanencia o estacionamiento de vehículos terrestres a motor en la playa de mar y su franja adyacente, con excepciones para emergencia, rescate, seguridad, gestión ambiental y obras autorizadas. Los GAD costeros delimitan y señalizan las zonas donde rige.",
       "impacto": "La prohibición de fondo ya existe en el Código Orgánico del Ambiente (art. 269 núm. 3 vigente); lo nuevo es que la LOTTTSV la incorpora también como contravención de tránsito.",
-      "tags": [{"text": "Art. 53 reforma → nuevo art. 181.1 LOTTTSV", "type": "art"}]
+      "tags": [
+        {
+          "text": "Art. 53 reforma → nuevo art. 181.1 LOTTTSV",
+          "type": "art"
+        }
+      ],
+      "grupo": "Circulación en playas"
     },
     {
       "titulo": "Programas y proyectos de seguridad vial",
       "antes": "El artículo 196.b vigente no vincula explícitamente los programas de seguridad vial con criterios de reducción de mortalidad, morbilidad vial y gestión del riesgo.",
       "ahora": "La ANT garantiza la ejecución, coordinación y seguimiento de programas de seguridad vial conforme al **Plan Nacional de Seguridad Vial**, que deben incorporar prevención de siniestros, reducción de mortalidad y morbilidad vial, y gestión del riesgo.",
-      "tags": [{"text": "Art. 59 reforma → art. 196.b LOTTTSV vigente", "type": "art"}]
+      "tags": [
+        {
+          "text": "Art. 59 reforma → art. 196.b LOTTTSV vigente",
+          "type": "art"
+        }
+      ],
+      "grupo": "Conducta y protección vial"
     },
     {
       "titulo": "Sistemas de retención infantil obligatorios",
       "antes": "No existe una obligación legal de usar sistemas de retención infantil en vehículos particulares.",
       "ahora": "Quien transporte niñas y niños en vehículos particulares debe usar sistemas de retención infantil homologados. El reglamento fija condiciones de uso, especificaciones técnicas y categorías; el incumplimiento se sanciona conforme a la Ley y al COIP.",
-      "tags": [{"text": "Art. 60 reforma → nuevo art. 196.c LOTTTSV", "type": "art"}]
+      "tags": [
+        {
+          "text": "Art. 60 reforma → nuevo art. 196.c LOTTTSV",
+          "type": "art"
+        }
+      ],
+      "grupo": "Conducta y protección vial"
     },
     {
       "titulo": "Derechos de los peatones, de nueve a catorce",
       "antes": "El artículo 198 reconoce nueve derechos a los peatones (literales a) a i)).",
       "ahora": "Se amplían a catorce: se agregan zonas de pacificación iluminadas, isletas de protección en vías de varios carriles, semáforo peatonal con señal sonora, corredores peatonales continuos y semáforos de pulso en zonas de alto flujo.",
-      "tags": [{"text": "Art. 61 reforma → art. 198 LOTTTSV vigente", "type": "art"}]
+      "tags": [
+        {
+          "text": "Art. 61 reforma → art. 198 LOTTTSV vigente",
+          "type": "art"
+        }
+      ],
+      "grupo": "Peatones y biciusuarios"
     },
     {
       "titulo": "Nuevos derechos de los biciusuarios",
       "antes": "El artículo 204 reconoce a los ciclistas derechos y obligaciones que terminan con la atención de denuncias por obstaculización de su circulación.",
       "ahora": "Se agregan vías de circulación exclusivas y señalizadas para bici-usuarios, mantenimiento periódico de ciclovías a cargo de los GAD municipales y metropolitanos, y alumbrado público adecuado para la visibilidad de las señales.",
-      "tags": [{"text": "Art. 62 reforma → art. 204 LOTTTSV vigente", "type": "art"}]
+      "tags": [
+        {
+          "text": "Art. 62 reforma → art. 204 LOTTTSV vigente",
+          "type": "art"
+        }
+      ],
+      "grupo": "Peatones y biciusuarios"
     },
     {
       "titulo": "Prohibiciones a conductores de bicicletas y similares",
       "antes": "El artículo 204.b prohíbe conductas como sujetarse a otro vehículo o rebasar por la derecha entre carriles.",
       "ahora": "Se sustituye el artículo completo, manteniendo y precisando el catálogo de prohibiciones — incluida la de llevar carga que dificulte visibilidad, equilibrio u operación adecuada.",
-      "tags": [{"text": "Art. 63 reforma → art. 204.b LOTTTSV vigente", "type": "art"}]
+      "tags": [
+        {
+          "text": "Art. 63 reforma → art. 204.b LOTTTSV vigente",
+          "type": "art"
+        }
+      ],
+      "grupo": "Peatones y biciusuarios"
     },
     {
       "titulo": "Criterio de siniestralidad en la Disposición General Séptima",
       "antes": "La Disposición General Séptima vigente prioriza determinadas acciones sin mencionar expresamente la disminución de índices de siniestralidad.",
       "ahora": "Se agrega la frase \"disminución de índices de siniestralidad,\" como criterio de priorización.",
-      "tags": [{"text": "Art. 71 reforma → Disposición General Séptima LOTTTSV vigente", "type": "art"}]
+      "tags": [
+        {
+          "text": "Art. 71 reforma → Disposición General Séptima LOTTTSV vigente",
+          "type": "art"
+        }
+      ],
+      "grupo": "Plan Nacional y criterios"
     },
     {
       "titulo": "Plan Nacional de Seguridad Vial sustituye al Plan de Movilidad y Logística",
       "antes": "La Ley se refiere en varios artículos al \"Plan Nacional de Movilidad y Logística del Transporte y Seguridad Vial\".",
       "ahora": "Toda referencia a ese plan se sustituye, a lo largo de toda la Ley, por \"**Plan Nacional de Seguridad Vial**\".",
-      "tags": [{"text": "Disposición General Primera (bloque final)", "type": "art"}]
+      "tags": [
+        {
+          "text": "Disposición General Primera (bloque final)",
+          "type": "art"
+        }
+      ],
+      "grupo": "Plan Nacional y criterios"
     },
     {
       "titulo": "Circular en playas, también contravención del COIP",
       "antes": "El COIP no tipifica la circulación en playas como contravención de tránsito.",
       "ahora": "Se agrega el numeral 10 al artículo 388 del COIP: circular o estacionar en playa, arena o dunas constituye contravención de tránsito de tercera clase (multa del 40% de un salario básico unificado).",
-      "tags": [{"text": "Disposición Reformatoria Cuarta (reforma Art. 388 COIP)", "type": "art"}]
+      "tags": [
+        {
+          "text": "Disposición Reformatoria Cuarta (reforma Art. 388 COIP)",
+          "type": "art"
+        }
+      ],
+      "grupo": "Circulación en playas"
     },
     {
       "titulo": "Ajuste de redacción en el Código Orgánico del Ambiente",
       "antes": "El artículo 269 núm. 3 del Código Orgánico del Ambiente ya prohíbe el estacionamiento y circulación de vehículos a motor en playa y su franja adyacente.",
       "ahora": "Se ajusta la redacción del mismo numeral para alinearla con el nuevo artículo 181.1 de la LOTTTSV.",
       "impacto": "La prohibición ambiental de fondo no es nueva; esta disposición solo armoniza el texto entre los dos cuerpos legales.",
-      "tags": [{"text": "Disposición Reformatoria Octava (reforma Art. 269 Código Orgánico del Ambiente)", "type": "art"}]
+      "tags": [
+        {
+          "text": "Disposición Reformatoria Octava (reforma Art. 269 Código Orgánico del Ambiente)",
+          "type": "art"
+        }
+      ],
+      "grupo": "Circulación en playas"
     },
     {
       "titulo": "Lineamientos de señalización de playas",
       "antes": "No existe un plazo para que los GAD costeros señalicen las zonas donde rige la prohibición de circular en playas.",
       "ahora": "Los GAD costeros deben emitir los lineamientos de señalización en 180 días.",
       "tags": [
-        {"text": "Disposición Final Sexta (bloque final)", "type": "art"},
-        {"text": "180 días", "type": "plazo"}
-      ]
+        {
+          "text": "Disposición Final Sexta (bloque final)",
+          "type": "art"
+        },
+        {
+          "text": "180 días",
+          "type": "plazo"
+        }
+      ],
+      "grupo": "Circulación en playas"
     }
   ]
 }
