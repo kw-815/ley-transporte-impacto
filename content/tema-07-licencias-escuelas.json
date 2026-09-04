@@ -1,0 +1,92 @@
+{
+  "meta_desc": "Qué cambia en la emisión de licencias de conducir, la formación de conductores y la autorización de escuelas de conducción con la reforma a la LOTTTSV.",
+  "en_sintesis": "La licencia podrá emitirse en formato digital y a través del Registro Civil, la formación práctica se fija en una banda porcentual en vez de un mínimo de horas, y se suspende la autorización de nuevas escuelas hasta concluir su categorización nacional.",
+  "items": [
+    {
+      "titulo": "Emisión de la licencia: física, digital y por el Registro Civil",
+      "antes": "El documento lo entrega la ANT o los GAD autorizados, únicamente en formato físico.",
+      "ahora": "La licencia se emite o renueva de forma **física o digital**, por la ANT o por la Dirección General de Registro Civil mediante delegación. La ANT conserva la rectoría, planificación y la potestad de suspender, revocar o anular.",
+      "tags": [{"text": "Art. 41 reforma → art. 92 LOTTTSV vigente", "type": "art"}]
+    },
+    {
+      "titulo": "Capacitación exigida solo para la primera emisión",
+      "antes": "No distingue entre emisión y renovación: ambas requieren aprobar el proceso de evaluación periódica que exige la ANT.",
+      "ahora": "La capacitación, formación y entrenamiento se exige **únicamente para la primera emisión**. La renovación se condiciona a evaluaciones psicosensométricas, visuales y teóricas, sin curso nuevo automático.",
+      "tags": [{"text": "Art. 41 reforma → art. 92 LOTTTSV vigente", "type": "art"}]
+    },
+    {
+      "titulo": "Requisito de educación básica para el curso no profesional",
+      "antes": "No exige nivel educativo para inscribirse en el curso de capacitación no profesional.",
+      "ahora": "Para inscribirse en el curso no profesional se requiere haber aprobado como mínimo la **educación básica, media o su equivalente**.",
+      "tags": [{"text": "Art. 42 reforma → art. 93 LOTTTSV vigente", "type": "art"}]
+    },
+    {
+      "titulo": "Límite de intentos en la rendición de pruebas",
+      "antes": "Las pruebas teóricas, prácticas, psicosensométricas y médicas son obligatorias para emisión, renovación, ascenso y rehabilitación, sin límite de intentos.",
+      "ahora": "Se añade un **número limitado de intentos** fijado por la ANT y un proceso obligatorio de reentrenamiento o capacitación complementaria una vez agotados.",
+      "tags": [{"text": "Art. 43 reforma → art. 94 LOTTTSV vigente", "type": "art"}]
+    },
+    {
+      "titulo": "Licencias C y G por primera vez sin licencia B previa",
+      "antes": "Exige tener vigente al menos 2 años una licencia no profesional tipo B para acceder a otras categorías, con excepción ya prevista para C y la especial G.",
+      "ahora": "Se aclara expresamente que, para obtener **por primera vez** una licencia C o G sin cambio de categoría, no se requiere haber tenido licencia tipo B.",
+      "impacto": "Aclara una excepción que el texto vigente ya contemplaba de forma general, ahora limitada al caso de primera obtención sin cambio de categoría.",
+      "tags": [{"text": "Art. 44 reforma → art. 96 LOTTTSV vigente", "type": "art"}]
+    },
+    {
+      "titulo": "Recuperación de puntos: tope de recuperaciones y de puntos totales",
+      "antes": "Escala de 15, 10 y 5 puntos, recuperable una vez al año durante la vigencia del título habilitante, sin tope acumulado de recuperaciones ni de puntos totales.",
+      "ahora": "Misma escala, pero con **máximo tres recuperaciones** y un tope de **30 puntos** por vigencia del título. Perder de nuevo los puntos recuperados implica suspensión de la licencia por cinco años.",
+      "tags": [{"text": "Art. 45 reforma → art. 98 LOTTTSV vigente", "type": "art"}]
+    },
+    {
+      "titulo": "Objetivo de formar en el uso de todos los medios de transporte",
+      "antes": "El objetivo de formación y capacitación se centra en normas de circulación y señalización vial.",
+      "ahora": "Se agrega expresamente la formación sobre el **uso correcto de todos los medios de transporte terrestre**, no solo normas de circulación y señalización.",
+      "tags": [{"text": "Art. 54 reforma → art. 185 LOTTTSV vigente", "type": "art"}]
+    },
+    {
+      "titulo": "Formación práctica: banda de 25%-40% en vez de mínimo fijo",
+      "antes": "La formación práctica no puede ser inferior al 40% de la malla curricular; mínimo 90 horas académicas para licencias no profesionales y 480 para profesionales.",
+      "ahora": "La formación práctica pasa a una **banda de 25% a 40%** con carácter general, y mínimo 40% para licencias profesionales. Se eliminan los mínimos de 90 y 480 horas; la malla la define la ANT por normativa técnica.",
+      "tags": [{"text": "Art. 55 reforma → art. 188.a LOTTTSV vigente", "type": "art"}]
+    },
+    {
+      "titulo": "Plazo de 30 días para subsanar infracciones leves en inspecciones",
+      "antes": "No prevé un mecanismo específico de subsanación para infracciones administrativas leves detectadas en inspecciones a escuelas de conducción.",
+      "ahora": "Ante infracciones leves detectadas en inspección, la ANT levanta observaciones y otorga **30 días** para subsanarlas antes de iniciar el procedimiento sancionador.",
+      "tags": [{"text": "Art. 56 reforma → art. 193 LOTTTSV vigente", "type": "art"}]
+    },
+    {
+      "titulo": "Nuevas infracciones y revocatoria por reincidencia",
+      "antes": "Diecisiete faltas muy graves tipificadas para escuelas de conducción; la reincidencia se computaba dentro del mismo año.",
+      "ahora": "Se añaden los numerales 18 (no conservar **archivo físico y digital de alumnos por al menos cinco años**) y 19 (acreditar falsamente título o certificado). La reincidencia en falta muy grave dos veces en cinco años implica **revocatoria de la autorización**.",
+      "tags": [{"text": "Art. 57 reforma → art. 194 LOTTTSV vigente", "type": "art"}]
+    },
+    {
+      "titulo": "Vida útil de los vehículos de escuelas de conducción",
+      "antes": "No existe una disposición específica sobre la vida útil de los vehículos de flotas de escuelas de conducción.",
+      "ahora": "Su vida útil será la misma que consta en el cuadro de vida útil aprobado por el Directorio de la ANT, según el tipo de vehículo.",
+      "impacto": "Es la Disposición General Segunda del bloque final propio de la reforma — distinta de la Disposición General Segunda de la LOTTTSV vigente, que trata de tricimotos y mototaxis y está en el Tema 3 (Títulos habilitantes, rutas y frecuencias).",
+      "tags": [{"text": "Disposición General Segunda (bloque final)", "type": "art"}]
+    },
+    {
+      "titulo": "Interoperabilidad ANT-Registro Civil para licencias",
+      "antes": "No existe una obligación específica de interoperabilidad entre la ANT y el Registro Civil para la emisión de licencias.",
+      "ahora": "La ANT y el Registro Civil deben suscribir, en 180 días, los instrumentos para garantizar la **interoperabilidad de sus sistemas**, el traspaso de procesos operativos y puntos de atención, y eliminar la duplicidad de trámites.",
+      "tags": [
+        {"text": "Disposición General Décima Quinta (bloque final)", "type": "art"},
+        {"text": "180 días", "type": "plazo"}
+      ]
+    },
+    {
+      "titulo": "Categorización nacional de escuelas y moratoria de nuevas autorizaciones",
+      "antes": "Autorización de nuevas escuelas de conducción conforme a los requisitos vigentes, sin proceso de categorización nacional ni moratoria.",
+      "ahora": "La ANT tiene **365 días** para evaluar y categorizar a todas las escuelas existentes. Mientras tanto, queda **suspendida la recepción de nuevas solicitudes** de creación o funcionamiento; los trámites en fase inicial se archivan y los que ya tienen informes favorables continúan condicionados a los nuevos estándares.",
+      "tags": [
+        {"text": "Disposición General Décima Sexta (bloque final)", "type": "art"},
+        {"text": "365 días", "type": "plazo"}
+      ]
+    }
+  ]
+}

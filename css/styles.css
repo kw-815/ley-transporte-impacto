@@ -30,7 +30,7 @@
   --orange:  #FF863E;   /* Metas + acento primario */
   --green:   #A2C56B;   /* Metas alternas */
 
-  /* 7 acentos, uno por objetivo */
+  /* 11 acentos, uno por tema */
   --obj-1: #FF863E;
   --obj-2: #01C5B4;
   --obj-3: #F26A5A;
@@ -38,6 +38,10 @@
   --obj-5: #A2C56B;
   --obj-6: #4E9F5E;
   --obj-7: #B096F8;
+  --obj-8: #4EA8DE;
+  --obj-9: #E8618C;
+  --obj-10: #C9A227;
+  --obj-11: #6B8CAE;
 
   /* ---- Tipografía ---- */
   --font: "DM Sans", ui-sans-serif, system-ui, -apple-system, sans-serif;
@@ -500,25 +504,14 @@ p { margin: 0; }
 
 /* ============================================================
    MURO DE OBJETIVOS — cover cards (firma del PDF)
-   Desktop: fila de 4 + fila de 3 centrada
+   11 temas: grid auto-fill, sin el hack de centrado de fila 2
    ============================================================ */
 .objectives__grid {
   display: grid;
   gap: var(--s-3);
-  grid-template-columns: repeat(8, 1fr);
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
 }
-.obj-cover { grid-column: span 2; }
-/* Fila 2 centrada: 3 tarjetas de 2 col, arrancando en col 2 */
-.obj-cover:nth-child(5) { grid-column: 2 / span 2; }
-@media (max-width: 1024px) {
-  .objectives__grid { grid-template-columns: repeat(6, 1fr); }
-  .obj-cover { grid-column: span 2 !important; }
-}
-@media (max-width: 760px) {
-  .objectives__grid { grid-template-columns: repeat(2, 1fr); }
-  .obj-cover { grid-column: span 1 !important; }
-}
-@media (max-width: 420px) {
+@media (max-width: 560px) {
   .objectives__grid { grid-template-columns: 1fr; }
 }
 
@@ -642,6 +635,10 @@ p { margin: 0; }
 .obj-cover--5 .obj-cover__top { background: var(--obj-5); }
 .obj-cover--6 .obj-cover__top { background: var(--obj-6); }
 .obj-cover--7 .obj-cover__top { background: var(--obj-7); }
+.obj-cover--8 .obj-cover__top { background: var(--obj-8); }
+.obj-cover--9 .obj-cover__top { background: var(--obj-9); }
+.obj-cover--10 .obj-cover__top { background: var(--obj-10); }
+.obj-cover--11 .obj-cover__top { background: var(--obj-11); }
 
 /* ============================================================
    PÁGINA DE OBJETIVO
@@ -651,10 +648,9 @@ p { margin: 0; }
 .obj-nav-top { padding-block: var(--s-3) 0; }
 .obj-nav-top__grid {
   display: grid;
-  grid-template-columns: repeat(7, 1fr);
+  grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
   gap: var(--s-1);
 }
-@media (max-width: 900px) { .obj-nav-top__grid { grid-template-columns: repeat(4, 1fr); } }
 @media (max-width: 540px) { .obj-nav-top__grid { grid-template-columns: repeat(2, 1fr); } }
 
 .obj-nav-top__item {
@@ -692,6 +688,10 @@ p { margin: 0; }
 .obj-nav-top__item--4 { background: var(--obj-4); }
 .obj-nav-top__item--5 { background: var(--obj-5); }
 .obj-nav-top__item--6 { background: var(--obj-6); }
+.obj-nav-top__item--8 { background: var(--obj-8); }
+.obj-nav-top__item--9 { background: var(--obj-9); }
+.obj-nav-top__item--10 { background: var(--obj-10); }
+.obj-nav-top__item--11 { background: var(--obj-11); }
 .obj-nav-top__item--7 { background: var(--obj-7); }
 
 /* Hero del objetivo — "Objetivo / Nombre / número outline" */
@@ -740,6 +740,10 @@ p { margin: 0; }
 .obj-hero--5 .obj-hero__name { color: var(--obj-5); }
 .obj-hero--6 .obj-hero__name { color: var(--obj-6); }
 .obj-hero--7 .obj-hero__name { color: var(--obj-7); }
+.obj-hero--8 .obj-hero__name { color: var(--obj-8); }
+.obj-hero--9 .obj-hero__name { color: var(--obj-9); }
+.obj-hero--10 .obj-hero__name { color: var(--obj-10); }
+.obj-hero--11 .obj-hero__name { color: var(--obj-11); }
 
 /* Descriptor con conector de punto.
    OJO: hoy no se emite en ninguna página. En el PDF de referencia el eje
@@ -1189,6 +1193,10 @@ p { margin: 0; }
 .obj-page--5 { --accent: var(--obj-5); }
 .obj-page--6 { --accent: var(--obj-6); }
 .obj-page--7 { --accent: var(--obj-7); }
+.obj-page--8 { --accent: var(--obj-8); }
+.obj-page--9 { --accent: var(--obj-9); }
+.obj-page--10 { --accent: var(--obj-10); }
+.obj-page--11 { --accent: var(--obj-11); }
 
 /* ---- Pager anterior / siguiente ---- */
 .obj-pager {

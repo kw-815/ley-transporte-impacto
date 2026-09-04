@@ -1,0 +1,60 @@
+{
+  "meta_desc": "La categoría nueva del transporte comercial que crea la reforma a la LOTTTSV para el reparto en motocicleta: definición, requisitos del repartidor y registro obligatorio.",
+  "en_sintesis": "Un capítulo nuevo de la LOTTTSV saca al reparto en motocicleta del vacío legal: lo define como subtipo de transporte comercial, fija los requisitos de quien reparte y crea un registro nacional obligatorio, con nuevas contravenciones en el COIP para quien opere sin cumplirlos.",
+  "items": [
+    {
+      "titulo": "Transporte de bienes a domicilio, con definición legal propia",
+      "antes": "No existe una categoría legal ni un título habilitante propio para el reparto de bienes en motocicleta (\"delivery\"); la actividad opera sin marco regulatorio específico.",
+      "ahora": "Se define como **transporte comercial de carga liviana de bienes a domicilio en motocicletas**, subtipo del transporte comercial de carga ligera. El Directorio de la ANT fija lineamientos, límites de carga, potencia y cilindraje; los GAD hacen los estudios técnicos y ejecutan el control operativo, pudiendo exigir dispositivos de geolocalización.",
+      "tags": [{"text": "Art. 27 reforma → nuevo art. 64.c LOTTTSV", "type": "art"}]
+    },
+    {
+      "titulo": "Requisitos obligatorios del repartidor",
+      "antes": "No existen requisitos específicos para quien conduce una motocicleta de reparto, más allá de las reglas generales de conducción.",
+      "ahora": "Se exige licencia de conducir para motocicletas, casco homologado con placa visible y legible, chaleco reflectivo con la placa igualmente visible, y mochilas o cajas homologadas que no obstruyan la placa, luces ni la visibilidad del conductor.",
+      "tags": [{"text": "Art. 27 reforma → nuevo art. 64.d LOTTTSV", "type": "art"}]
+    },
+    {
+      "titulo": "Repartidores extranjeros",
+      "antes": "Se aplica la regla general de homologación de licencias extranjeras, sin disposición específica para el reparto a domicilio.",
+      "ahora": "La licencia otorgada en el país de origen debe homologarse conforme a los procedimientos y plazos que fije la autoridad nacional competente para poder prestar el servicio.",
+      "tags": [{"text": "Art. 27 reforma → nuevo art. 64.e LOTTTSV", "type": "art"}]
+    },
+    {
+      "titulo": "Registro Nacional de Conductores y Vehículos de reparto",
+      "antes": "No existe un registro de repartidores ni de los vehículos que usan para el servicio.",
+      "ahora": "Se crea un Registro Nacional de Conductores y Vehículos destinados al transporte de bienes y servicios a domicilio, administrado por la ANT, obligatorio **sin importar la modalidad de contratación, vinculación o intermediación** — alcanza tanto a repartidores independientes como a los vinculados a plataformas.",
+      "tags": [{"text": "Art. 27 reforma → nuevo art. 64.f LOTTTSV", "type": "art"}]
+    },
+    {
+      "titulo": "Nuevas contravenciones por placa no visible o carga que obstruye",
+      "antes": "El artículo 389 del COIP (contravención de cuarta clase, 30% de un SBU) no contempla infracciones propias del reparto a domicilio.",
+      "ahora": "Se agregan los numerales 13 a 15: placa no visible en casco, chaleco o mochila; carga que obstruye la visibilidad; y mochila que interfiere con la operación del vehículo.",
+      "tags": [{"text": "Disposición Reformatoria Quinta (reforma Art. 389 COIP)", "type": "art"}]
+    },
+    {
+      "titulo": "Nueva contravención por prestar el servicio sin registro",
+      "antes": "El artículo 390 del COIP (contravención de quinta clase, 15% de un SBU) no contempla la falta de registro de repartidores.",
+      "ahora": "Se agrega el numeral 23: prestar el servicio de transporte de bienes a domicilio sin estar inscrito en el Registro Nacional.",
+      "tags": [{"text": "Disposición Reformatoria Sexta (reforma Art. 390 COIP)", "type": "art"}]
+    },
+    {
+      "titulo": "Implementación progresiva del Registro Nacional",
+      "antes": "No aplica — el Registro es una figura nueva creada por esta misma reforma.",
+      "ahora": "El Registro Nacional de Conductores y Vehículos de reparto se implementa de forma progresiva, con un plazo máximo de tres años.",
+      "tags": [
+        {"text": "Disposición General Octava (bloque final)", "type": "art"},
+        {"text": "3 años", "type": "plazo"}
+      ]
+    },
+    {
+      "titulo": "Ordenanzas complementarias de delivery y denuncias ciudadanas",
+      "antes": "No existe la obligación de que los GAD emitan ordenanzas específicas de delivery ni un sistema de denuncias ciudadanas dedicado.",
+      "ahora": "Los GAD deben emitir ordenanzas complementarias de delivery y habilitar un sistema de denuncias ciudadanas en línea, en un plazo de 90 días.",
+      "tags": [
+        {"text": "Disposición Final Quinta (bloque final)", "type": "art"},
+        {"text": "90 días", "type": "plazo"}
+      ]
+    }
+  ]
+}
